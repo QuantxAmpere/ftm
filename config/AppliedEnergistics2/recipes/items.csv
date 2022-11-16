@@ -7152,7 +7152,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quail Eating Ducks)
+ExtraUtilities:endConstructor:0, QED (Quite Expensive Decoration)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -8116,45 +8116,45 @@ ExtraTiC:moltenConstantan, Molten Constantan
 ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
-ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
 ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:golemConnector, Golem Connector
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:fireAir, Aer Imbued Fire
 ThaumicTinkerer:magnet:0, Kinetic Attractor
 ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:golemConnector, Golem Connector
+ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
+ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
+ThaumicTinkerer:travelStairs, Paving Stair of Travel
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:animationTablet, Dynamism Tablet
 ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
 ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
 ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
 ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:travelStairs, Paving Stair of Travel
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -8386,12 +8386,12 @@ OpenBlocks:sky:1, Sky Block
 OpenBlocks:xpshower, XP Shower
 OpenBlocks:goldenegg, Golden Egg
 OpenBlocks:scaffolding, Scaffolding
-OpenPeripheral:peripheralproxy, Peripheral Proxy
-OpenPeripheral:ticketmachine, Ticket Machine
 OpenPeripheral:glassesbridge, Terminal Glasses Bridge
 OpenPeripheral:pim, PIM
 OpenPeripheral:sensor, Sensor
 OpenPeripheral:selector, Item Selector
+OpenPeripheral:ticketmachine, Ticket Machine
+OpenPeripheral:peripheralproxy, Peripheral Proxy
 rftools:machineFrame, Machine Frame
 rftools:machineBase, Machine Base
 rftools:rfMonitorBlock, RF Monitor
@@ -9169,6 +9169,702 @@ TMechworks:MeshFilter:1, Wide Mesh Filter
 TMechworks:MeshFilter:2, Slat Mesh Filter
 TMechworks:MeshFilter:3, Mesh Filter
 TMechworks:MeshFilter:4, Fine Mesh Filter
+UndergroundBiomes:igneousStone:0, Red Granite
+UndergroundBiomes:igneousStone:1, Black Granite
+UndergroundBiomes:igneousStone:2, Rhyolite
+UndergroundBiomes:igneousStone:3, Andesite
+UndergroundBiomes:igneousStone:4, Gabbro
+UndergroundBiomes:igneousStone:5, Basalt
+UndergroundBiomes:igneousStone:6, Komatiite
+UndergroundBiomes:igneousStone:7, Dacite
+UndergroundBiomes:igneousCobblestone:0, Red Granite Cobblestone
+UndergroundBiomes:igneousCobblestone:1, Black Granite Cobblestone
+UndergroundBiomes:igneousCobblestone:2, Rhyolite Cobblestone
+UndergroundBiomes:igneousCobblestone:3, Andesite Cobblestone
+UndergroundBiomes:igneousCobblestone:4, Gabbro Cobblestone
+UndergroundBiomes:igneousCobblestone:5, Basalt Cobblestone
+UndergroundBiomes:igneousCobblestone:6, Komatiite Cobblestone
+UndergroundBiomes:igneousCobblestone:7, Dacite Cobblestone
+UndergroundBiomes:igneousStoneBrick:0, Red Granite Bricks
+UndergroundBiomes:igneousStoneBrick:1, Black Granite Bricks
+UndergroundBiomes:igneousStoneBrick:2, Rhyolite Bricks
+UndergroundBiomes:igneousStoneBrick:3, Andesite Bricks
+UndergroundBiomes:igneousStoneBrick:4, Gabbro Bricks
+UndergroundBiomes:igneousStoneBrick:5, Basalt Bricks
+UndergroundBiomes:igneousStoneBrick:6, Komatiite Bricks
+UndergroundBiomes:igneousStoneBrick:7, Dacite Bricks
+UndergroundBiomes:metamorphicStone:0, Gneiss
+UndergroundBiomes:metamorphicStone:1, Eclogite
+UndergroundBiomes:metamorphicStone:2, Marble
+UndergroundBiomes:metamorphicStone:3, Quartzite
+UndergroundBiomes:metamorphicStone:4, Blue Schist
+UndergroundBiomes:metamorphicStone:5, Green Schist
+UndergroundBiomes:metamorphicStone:6, Soapstone
+UndergroundBiomes:metamorphicStone:7, Migmatite
+UndergroundBiomes:metamorphicCobblestone:0, Gneiss Cobblestone
+UndergroundBiomes:metamorphicCobblestone:1, Eclogite Cobblestone
+UndergroundBiomes:metamorphicCobblestone:2, Marble Cobblestone
+UndergroundBiomes:metamorphicCobblestone:3, Quartzite Cobblestone
+UndergroundBiomes:metamorphicCobblestone:4, Blue Schist Cobblestone
+UndergroundBiomes:metamorphicCobblestone:5, Green Schist Cobblestone
+UndergroundBiomes:metamorphicCobblestone:6, Soapstone Cobblestone
+UndergroundBiomes:metamorphicCobblestone:7, Migmatite Cobblestone
+UndergroundBiomes:metamorphicStoneBrick:0, Gneiss Bricks
+UndergroundBiomes:metamorphicStoneBrick:1, Eclogite Bricks
+UndergroundBiomes:metamorphicStoneBrick:2, Marble Bricks
+UndergroundBiomes:metamorphicStoneBrick:3, Quartzite Bricks
+UndergroundBiomes:metamorphicStoneBrick:4, Blue Schist Bricks
+UndergroundBiomes:metamorphicStoneBrick:5, Green Schist Bricks
+UndergroundBiomes:metamorphicStoneBrick:6, Soapstone Bricks
+UndergroundBiomes:metamorphicStoneBrick:7, Migmatite Bricks
+UndergroundBiomes:sedimentaryStone:0, Limestone
+UndergroundBiomes:sedimentaryStone:1, Chalk
+UndergroundBiomes:sedimentaryStone:2, Shale
+UndergroundBiomes:sedimentaryStone:3, Siltstone
+UndergroundBiomes:sedimentaryStone:4, Lignite Block
+UndergroundBiomes:sedimentaryStone:5, Dolomite
+UndergroundBiomes:sedimentaryStone:6, Greywacke
+UndergroundBiomes:sedimentaryStone:7, Chert
+UndergroundBiomes:igneousStoneBrickHalfSlab:0, Red Granite Brick Slab
+UndergroundBiomes:igneousStoneBrickHalfSlab:1, Black Granite Brick Slab
+UndergroundBiomes:igneousStoneBrickHalfSlab:2, Rhyolite Brick Slab
+UndergroundBiomes:igneousStoneBrickHalfSlab:3, Andesite Brick Slab
+UndergroundBiomes:igneousStoneBrickHalfSlab:4, Gabbro Brick Slab
+UndergroundBiomes:igneousStoneBrickHalfSlab:5, Basalt Brick Slab
+UndergroundBiomes:igneousStoneBrickHalfSlab:6, Komatiite Brick Slab
+UndergroundBiomes:igneousStoneBrickHalfSlab:7, Dacite Brick Slab
+UndergroundBiomes:metamorphicStoneBrickHalfSlab:0, Gneiss Brick Slab
+UndergroundBiomes:metamorphicStoneBrickHalfSlab:1, Eclogite Brick Slab
+UndergroundBiomes:metamorphicStoneBrickHalfSlab:2, Marble Brick Slab
+UndergroundBiomes:metamorphicStoneBrickHalfSlab:3, Quartzite Brick Slab
+UndergroundBiomes:metamorphicStoneBrickHalfSlab:4, Blue Schist Brick Slab
+UndergroundBiomes:metamorphicStoneBrickHalfSlab:5, Green Schist Brick Slab
+UndergroundBiomes:metamorphicStoneBrickHalfSlab:6, Soapstone Brick Slab
+UndergroundBiomes:metamorphicStoneBrickHalfSlab:7, Migmatite Brick Slab
+UndergroundBiomes:igneousStoneHalfSlab:0, Red Granite Slab
+UndergroundBiomes:igneousStoneHalfSlab:1, Black Granite Slab
+UndergroundBiomes:igneousStoneHalfSlab:2, Rhyolite Slab
+UndergroundBiomes:igneousStoneHalfSlab:3, Andesite Slab
+UndergroundBiomes:igneousStoneHalfSlab:4, Gabbro Slab
+UndergroundBiomes:igneousStoneHalfSlab:5, Basalt Slab
+UndergroundBiomes:igneousStoneHalfSlab:6, Komatiite Slab
+UndergroundBiomes:igneousStoneHalfSlab:7, Dacite Slab
+UndergroundBiomes:metamorphicStoneHalfSlab:0, Gneiss Slab
+UndergroundBiomes:metamorphicStoneHalfSlab:1, Eclogite Slab
+UndergroundBiomes:metamorphicStoneHalfSlab:2, Marble Slab
+UndergroundBiomes:metamorphicStoneHalfSlab:3, Quartzite Slab
+UndergroundBiomes:metamorphicStoneHalfSlab:4, Blue Schist Slab
+UndergroundBiomes:metamorphicStoneHalfSlab:5, Green Schist Slab
+UndergroundBiomes:metamorphicStoneHalfSlab:6, Soapstone Slab
+UndergroundBiomes:metamorphicStoneHalfSlab:7, Migmatite Slab
+UndergroundBiomes:igneousCobblestoneHalfSlab:0, Red Granite Cobblestone Slab
+UndergroundBiomes:igneousCobblestoneHalfSlab:1, Black Granite Cobblestone Slab
+UndergroundBiomes:igneousCobblestoneHalfSlab:2, Rhyolite Cobblestone Slab
+UndergroundBiomes:igneousCobblestoneHalfSlab:3, Andesite Cobblestone Slab
+UndergroundBiomes:igneousCobblestoneHalfSlab:4, Gabbro Cobblestone Slab
+UndergroundBiomes:igneousCobblestoneHalfSlab:5, Basalt Cobblestone Slab
+UndergroundBiomes:igneousCobblestoneHalfSlab:6, Komatiite Cobblestone Slab
+UndergroundBiomes:igneousCobblestoneHalfSlab:7, Dacite Cobblestone Slab
+UndergroundBiomes:metamorphicCobblestoneHalfSlab:0, Gneiss Cobblestone Slab
+UndergroundBiomes:metamorphicCobblestoneHalfSlab:1, Eclogite Cobblestone Slab
+UndergroundBiomes:metamorphicCobblestoneHalfSlab:2, Marble Cobblestone Slab
+UndergroundBiomes:metamorphicCobblestoneHalfSlab:3, Quartzite Cobblestone Slab
+UndergroundBiomes:metamorphicCobblestoneHalfSlab:4, Blue Schist Cobblestone Slab
+UndergroundBiomes:metamorphicCobblestoneHalfSlab:5, Green Schist Cobblestone Slab
+UndergroundBiomes:metamorphicCobblestoneHalfSlab:6, Soapstone Cobblestone Slab
+UndergroundBiomes:metamorphicCobblestoneHalfSlab:7, Migmatite Cobblestone Slab
+UndergroundBiomes:sedimentaryStoneHalfSlab:0, Limestone Slab
+UndergroundBiomes:sedimentaryStoneHalfSlab:1, Chalk Slab
+UndergroundBiomes:sedimentaryStoneHalfSlab:2, Shale Slab
+UndergroundBiomes:sedimentaryStoneHalfSlab:3, Siltstone Slab
+UndergroundBiomes:sedimentaryStoneHalfSlab:4, Lignite Slab
+UndergroundBiomes:sedimentaryStoneHalfSlab:5, Dolomite Slab
+UndergroundBiomes:sedimentaryStoneHalfSlab:6, Greywacke Slab
+UndergroundBiomes:sedimentaryStoneHalfSlab:7, Chert Slab
+UndergroundBiomes:button:0, Gneiss Button
+UndergroundBiomes:button:1, Eclogite Button
+UndergroundBiomes:button:2, Marble Button
+UndergroundBiomes:button:3, Quartzite Button
+UndergroundBiomes:button:4, Blue Schist Button
+UndergroundBiomes:button:5, Green Schist Button
+UndergroundBiomes:button:6, Soapstone Button
+UndergroundBiomes:button:7, Migmatite Button
+UndergroundBiomes:button:8, Gneiss Cobblestone Button
+UndergroundBiomes:button:9, Eclogite Cobblestone Button
+UndergroundBiomes:button:10, Marble Cobblestone Button
+UndergroundBiomes:button:11, Quartzite Cobblestone Button
+UndergroundBiomes:button:12, Blue Schist Cobblestone Button
+UndergroundBiomes:button:13, Green Schist Cobblestone Button
+UndergroundBiomes:button:14, Soapstone Cobblestone Button
+UndergroundBiomes:button:15, Migmatite Cobblestone Button
+UndergroundBiomes:button:24, Red Granite Button
+UndergroundBiomes:button:25, Black Granite Button
+UndergroundBiomes:button:26, Rhyolite Button
+UndergroundBiomes:button:27, Andesite Button
+UndergroundBiomes:button:28, Gabbro Button
+UndergroundBiomes:button:29, Basalt Button
+UndergroundBiomes:button:30, Komatiite Button
+UndergroundBiomes:button:31, Dacite Button
+UndergroundBiomes:button:32, Red Granite Cobblestone Button
+UndergroundBiomes:button:33, Black Granite Cobblestone Button
+UndergroundBiomes:button:34, Rhyolite Cobblestone Button
+UndergroundBiomes:button:35, Andesite Cobblestone Button
+UndergroundBiomes:button:36, Gabbro Cobblestone Button
+UndergroundBiomes:button:37, Basalt Cobblestone Button
+UndergroundBiomes:button:38, Komatiite Cobblestone Button
+UndergroundBiomes:button:39, Dacite Cobblestone Button
+UndergroundBiomes:button:48, Limestone Button
+UndergroundBiomes:button:49, Chalk Button
+UndergroundBiomes:button:50, Shale Button
+UndergroundBiomes:button:51, Siltstone Button
+UndergroundBiomes:button:52, Lignite Block Button
+UndergroundBiomes:button:53, Dolomite Button
+UndergroundBiomes:button:54, Greywacke Button
+UndergroundBiomes:button:55, Chert Button
+UndergroundBiomes:button.tile.igneousStone0:0, Red Granite Button
+UndergroundBiomes:button.tile.igneousStone1:0, Black Granite Button
+UndergroundBiomes:button.tile.igneousStone2:0, Rhyolite Button
+UndergroundBiomes:button.tile.igneousStone3:0, Andesite Button
+UndergroundBiomes:button.tile.igneousStone4:0, Gabbro Button
+UndergroundBiomes:button.tile.igneousStone5:0, Basalt Button
+UndergroundBiomes:button.tile.igneousStone6:0, Komatiite Button
+UndergroundBiomes:button.tile.igneousStone7:0, Dacite Button
+UndergroundBiomes:button.tile.igneousCobblestone0:0, Red Granite Cobblestone Button
+UndergroundBiomes:button.tile.igneousCobblestone1:0, Black Granite Cobblestone Button
+UndergroundBiomes:button.tile.igneousCobblestone2:0, Rhyolite Cobblestone Button
+UndergroundBiomes:button.tile.igneousCobblestone3:0, Andesite Cobblestone Button
+UndergroundBiomes:button.tile.igneousCobblestone4:0, Gabbro Cobblestone Button
+UndergroundBiomes:button.tile.igneousCobblestone5:0, Basalt Cobblestone Button
+UndergroundBiomes:button.tile.igneousCobblestone6:0, Komatiite Cobblestone Button
+UndergroundBiomes:button.tile.igneousCobblestone7:0, Dacite Cobblestone Button
+UndergroundBiomes:button.tile.igneousStoneBrick0:0, Red Granite Brick Button
+UndergroundBiomes:button.tile.igneousStoneBrick1:0, Black Granite Brick Button
+UndergroundBiomes:button.tile.igneousStoneBrick2:0, Rhyolite Brick Button
+UndergroundBiomes:button.tile.igneousStoneBrick3:0, Andesite Brick Button
+UndergroundBiomes:button.tile.igneousStoneBrick4:0, Gabbro Brick Button
+UndergroundBiomes:button.tile.igneousStoneBrick5:0, Basalt Brick Button
+UndergroundBiomes:button.tile.igneousStoneBrick6:0, Komatiite Brick Button
+UndergroundBiomes:button.tile.igneousStoneBrick7:0, Dacite Brick Button
+UndergroundBiomes:button.tile.metamorphicStone0:0, Gneiss Button
+UndergroundBiomes:button.tile.metamorphicStone1:0, Eclogite Button
+UndergroundBiomes:button.tile.metamorphicStone2:0, Marble Button
+UndergroundBiomes:button.tile.metamorphicStone3:0, Quartzite Button
+UndergroundBiomes:button.tile.metamorphicStone4:0, Blue Schist Button
+UndergroundBiomes:button.tile.metamorphicStone5:0, Green Schist Button
+UndergroundBiomes:button.tile.metamorphicStone6:0, Soapstone Button
+UndergroundBiomes:button.tile.metamorphicStone7:0, Migmatite Button
+UndergroundBiomes:button.tile.metamorphicCobblestone0:0, Gneiss Cobblestone Button
+UndergroundBiomes:button.tile.metamorphicCobblestone1:0, Eclogite Cobblestone Button
+UndergroundBiomes:button.tile.metamorphicCobblestone2:0, Marble Cobblestone Button
+UndergroundBiomes:button.tile.metamorphicCobblestone3:0, Quartzite Cobblestone Button
+UndergroundBiomes:button.tile.metamorphicCobblestone4:0, Blue Schist Cobblestone Button
+UndergroundBiomes:button.tile.metamorphicCobblestone5:0, Green Schist Cobblestone Button
+UndergroundBiomes:button.tile.metamorphicCobblestone6:0, Soapstone Cobblestone Button
+UndergroundBiomes:button.tile.metamorphicCobblestone7:0, Migmatite Cobblestone Button
+UndergroundBiomes:button.tile.metamorphicStoneBrick0:0, Gneiss Brick Button
+UndergroundBiomes:button.tile.metamorphicStoneBrick1:0, Eclogite Brick Button
+UndergroundBiomes:button.tile.metamorphicStoneBrick2:0, Marble Brick Button
+UndergroundBiomes:button.tile.metamorphicStoneBrick3:0, Quartzite Brick Button
+UndergroundBiomes:button.tile.metamorphicStoneBrick4:0, Blue Schist Brick Button
+UndergroundBiomes:button.tile.metamorphicStoneBrick5:0, Green Schist Brick Button
+UndergroundBiomes:button.tile.metamorphicStoneBrick6:0, Soapstone Brick Button
+UndergroundBiomes:button.tile.metamorphicStoneBrick7:0, Migmatite Brick Button
+UndergroundBiomes:button.tile.sedimentaryStone0:0, Limestone Button
+UndergroundBiomes:button.tile.sedimentaryStone1:0, Chalk Button
+UndergroundBiomes:button.tile.sedimentaryStone2:0, Shale Button
+UndergroundBiomes:button.tile.sedimentaryStone3:0, Siltstone Button
+UndergroundBiomes:button.tile.sedimentaryStone4:0, Lignite Block Button
+UndergroundBiomes:button.tile.sedimentaryStone5:0, Dolomite Button
+UndergroundBiomes:button.tile.sedimentaryStone6:0, Greywacke Button
+UndergroundBiomes:button.tile.sedimentaryStone7:0, Chert Button
+UndergroundBiomes:stairs:0, Gneiss Stairs
+UndergroundBiomes:stairs:1, Eclogite Stairs
+UndergroundBiomes:stairs:2, Marble Stairs
+UndergroundBiomes:stairs:3, Quartzite Stairs
+UndergroundBiomes:stairs:4, Blue Schist Stairs
+UndergroundBiomes:stairs:5, Green Schist Stairs
+UndergroundBiomes:stairs:6, Soapstone Stairs
+UndergroundBiomes:stairs:7, Migmatite Stairs
+UndergroundBiomes:stairs:8, Gneiss Cobblestone Stairs
+UndergroundBiomes:stairs:9, Eclogite Cobblestone Stairs
+UndergroundBiomes:stairs:10, Marble Cobblestone Stairs
+UndergroundBiomes:stairs:11, Quartzite Cobblestone Stairs
+UndergroundBiomes:stairs:12, Blue Schist Cobblestone Stairs
+UndergroundBiomes:stairs:13, Green Schist Cobblestone Stairs
+UndergroundBiomes:stairs:14, Soapstone Cobblestone Stairs
+UndergroundBiomes:stairs:15, Migmatite Cobblestone Stairs
+UndergroundBiomes:stairs:16, Gneiss Brick Stairs
+UndergroundBiomes:stairs:17, Eclogite Brick Stairs
+UndergroundBiomes:stairs:18, Marble Brick Stairs
+UndergroundBiomes:stairs:19, Quartzite Brick Stairs
+UndergroundBiomes:stairs:20, Blue Schist Brick Stairs
+UndergroundBiomes:stairs:21, Green Schist Brick Stairs
+UndergroundBiomes:stairs:22, Soapstone Brick Stairs
+UndergroundBiomes:stairs:23, Migmatite Brick Stairs
+UndergroundBiomes:stairs:24, Red Granite Stairs
+UndergroundBiomes:stairs:25, Black Granite Stairs
+UndergroundBiomes:stairs:26, Rhyolite Stairs
+UndergroundBiomes:stairs:27, Andesite Stairs
+UndergroundBiomes:stairs:28, Gabbro Stairs
+UndergroundBiomes:stairs:29, Basalt Stairs
+UndergroundBiomes:stairs:30, Komatiite Stairs
+UndergroundBiomes:stairs:31, Dacite Stairs
+UndergroundBiomes:stairs:32, Red Granite Cobblestone Stairs
+UndergroundBiomes:stairs:33, Black Granite Cobblestone Stairs
+UndergroundBiomes:stairs:34, Rhyolite Cobblestone Stairs
+UndergroundBiomes:stairs:35, Andesite Cobblestone Stairs
+UndergroundBiomes:stairs:36, Gabbro Cobblestone Stairs
+UndergroundBiomes:stairs:37, Basalt Cobblestone Stairs
+UndergroundBiomes:stairs:38, Komatiite Cobblestone Stairs
+UndergroundBiomes:stairs:39, Dacite Cobblestone Stairs
+UndergroundBiomes:stairs:40, Red Granite Brick Stairs
+UndergroundBiomes:stairs:41, Black Granite Brick Stairs
+UndergroundBiomes:stairs:42, Rhyolite Brick Stairs
+UndergroundBiomes:stairs:43, Andesite Brick Stairs
+UndergroundBiomes:stairs:44, Gabbro Brick Stairs
+UndergroundBiomes:stairs:45, Basalt Brick Stairs
+UndergroundBiomes:stairs:46, Komatiite Brick Stairs
+UndergroundBiomes:stairs:47, Dacite Brick Stairs
+UndergroundBiomes:stairs:48, Limestone Stairs
+UndergroundBiomes:stairs:49, Chalk Stairs
+UndergroundBiomes:stairs:50, Shale Stairs
+UndergroundBiomes:stairs:51, Siltstone Stairs
+UndergroundBiomes:stairs:52, Lignite Block Stairs
+UndergroundBiomes:stairs:53, Dolomite Stairs
+UndergroundBiomes:stairs:54, Greywacke Stairs
+UndergroundBiomes:stairs:55, Chert Stairs
+UndergroundBiomes:stairs.tile.igneousStone0:0, Red Granite Stairs
+UndergroundBiomes:stairs.tile.igneousStone0:8, Black Granite Stairs
+UndergroundBiomes:stairs.tile.igneousStone1:0, Rhyolite Stairs
+UndergroundBiomes:stairs.tile.igneousStone1:8, Andesite Stairs
+UndergroundBiomes:stairs.tile.igneousStone2:0, Gabbro Stairs
+UndergroundBiomes:stairs.tile.igneousStone2:8, Basalt Stairs
+UndergroundBiomes:stairs.tile.igneousStone3:0, Komatiite Stairs
+UndergroundBiomes:stairs.tile.igneousStone3:8, Dacite Stairs
+UndergroundBiomes:stairs.tile.igneousCobblestone0:0, Red Granite Cobblestone Stairs
+UndergroundBiomes:stairs.tile.igneousCobblestone0:8, Black Granite Cobblestone Stairs
+UndergroundBiomes:stairs.tile.igneousCobblestone1:0, Rhyolite Cobblestone Stairs
+UndergroundBiomes:stairs.tile.igneousCobblestone1:8, Andesite Cobblestone Stairs
+UndergroundBiomes:stairs.tile.igneousCobblestone2:0, Gabbro Cobblestone Stairs
+UndergroundBiomes:stairs.tile.igneousCobblestone2:8, Basalt Cobblestone Stairs
+UndergroundBiomes:stairs.tile.igneousCobblestone3:0, Komatiite Cobblestone Stairs
+UndergroundBiomes:stairs.tile.igneousCobblestone3:8, Dacite Cobblestone Stairs
+UndergroundBiomes:stairs.tile.igneousStoneBrick0:0, Red Granite Brick Stairs
+UndergroundBiomes:stairs.tile.igneousStoneBrick0:8, Black Granite Brick Stairs
+UndergroundBiomes:stairs.tile.igneousStoneBrick1:0, Rhyolite Brick Stairs
+UndergroundBiomes:stairs.tile.igneousStoneBrick1:8, Andesite Brick Stairs
+UndergroundBiomes:stairs.tile.igneousStoneBrick2:0, Gabbro Brick Stairs
+UndergroundBiomes:stairs.tile.igneousStoneBrick2:8, Basalt Brick Stairs
+UndergroundBiomes:stairs.tile.igneousStoneBrick3:0, Komatiite Brick Stairs
+UndergroundBiomes:stairs.tile.igneousStoneBrick3:8, Dacite Brick Stairs
+UndergroundBiomes:stairs.tile.metamorphicStone0:0, Gneiss Stairs
+UndergroundBiomes:stairs.tile.metamorphicStone0:8, Eclogite Stairs
+UndergroundBiomes:stairs.tile.metamorphicStone1:0, Marble Stairs
+UndergroundBiomes:stairs.tile.metamorphicStone1:8, Quartzite Stairs
+UndergroundBiomes:stairs.tile.metamorphicStone2:0, Blue Schist Stairs
+UndergroundBiomes:stairs.tile.metamorphicStone2:8, Green Schist Stairs
+UndergroundBiomes:stairs.tile.metamorphicStone3:0, Soapstone Stairs
+UndergroundBiomes:stairs.tile.metamorphicStone3:8, Migmatite Stairs
+UndergroundBiomes:stairs.tile.metamorphicCobblestone0:0, Gneiss Cobblestone Stairs
+UndergroundBiomes:stairs.tile.metamorphicCobblestone0:8, Eclogite Cobblestone Stairs
+UndergroundBiomes:stairs.tile.metamorphicCobblestone1:0, Marble Cobblestone Stairs
+UndergroundBiomes:stairs.tile.metamorphicCobblestone1:8, Quartzite Cobblestone Stairs
+UndergroundBiomes:stairs.tile.metamorphicCobblestone2:0, Blue Schist Cobblestone Stairs
+UndergroundBiomes:stairs.tile.metamorphicCobblestone2:8, Green Schist Cobblestone Stairs
+UndergroundBiomes:stairs.tile.metamorphicCobblestone3:0, Soapstone Cobblestone Stairs
+UndergroundBiomes:stairs.tile.metamorphicCobblestone3:8, Migmatite Cobblestone Stairs
+UndergroundBiomes:stairs.tile.metamorphicStoneBrick0:0, Gneiss Brick Stairs
+UndergroundBiomes:stairs.tile.metamorphicStoneBrick0:8, Eclogite Brick Stairs
+UndergroundBiomes:stairs.tile.metamorphicStoneBrick1:0, Marble Brick Stairs
+UndergroundBiomes:stairs.tile.metamorphicStoneBrick1:8, Quartzite Brick Stairs
+UndergroundBiomes:stairs.tile.metamorphicStoneBrick2:0, Blue Schist Brick Stairs
+UndergroundBiomes:stairs.tile.metamorphicStoneBrick2:8, Green Schist Brick Stairs
+UndergroundBiomes:stairs.tile.metamorphicStoneBrick3:0, Soapstone Brick Stairs
+UndergroundBiomes:stairs.tile.metamorphicStoneBrick3:8, Migmatite Brick Stairs
+UndergroundBiomes:stairs.tile.sedimentaryStone0:0, Limestone Stairs
+UndergroundBiomes:stairs.tile.sedimentaryStone0:8, Chalk Stairs
+UndergroundBiomes:stairs.tile.sedimentaryStone1:0, Shale Stairs
+UndergroundBiomes:stairs.tile.sedimentaryStone1:8, Siltstone Stairs
+UndergroundBiomes:stairs.tile.sedimentaryStone2:0, Lignite Block Stairs
+UndergroundBiomes:stairs.tile.sedimentaryStone2:8, Dolomite Stairs
+UndergroundBiomes:stairs.tile.sedimentaryStone3:0, Greywacke Stairs
+UndergroundBiomes:stairs.tile.sedimentaryStone3:8, Chert Stairs
+UndergroundBiomes:wall:0, Gneiss Wall
+UndergroundBiomes:wall:1, Eclogite Wall
+UndergroundBiomes:wall:2, Marble Wall
+UndergroundBiomes:wall:3, Quartzite Wall
+UndergroundBiomes:wall:4, Blue Schist Wall
+UndergroundBiomes:wall:5, Green Schist Wall
+UndergroundBiomes:wall:6, Soapstone Wall
+UndergroundBiomes:wall:7, Migmatite Wall
+UndergroundBiomes:wall:8, Gneiss Cobblestone Wall
+UndergroundBiomes:wall:9, Eclogite Cobblestone Wall
+UndergroundBiomes:wall:10, Marble Cobblestone Wall
+UndergroundBiomes:wall:11, Quartzite Cobblestone Wall
+UndergroundBiomes:wall:12, Blue Schist Cobblestone Wall
+UndergroundBiomes:wall:13, Green Schist Cobblestone Wall
+UndergroundBiomes:wall:14, Soapstone Cobblestone Wall
+UndergroundBiomes:wall:15, Migmatite Cobblestone Wall
+UndergroundBiomes:wall:16, Gneiss Brick Wall
+UndergroundBiomes:wall:17, Eclogite Brick Wall
+UndergroundBiomes:wall:18, Marble Brick Wall
+UndergroundBiomes:wall:19, Quartzite Brick Wall
+UndergroundBiomes:wall:20, Blue Schist Brick Wall
+UndergroundBiomes:wall:21, Green Schist Brick Wall
+UndergroundBiomes:wall:22, Soapstone Brick Wall
+UndergroundBiomes:wall:23, Migmatite Brick Wall
+UndergroundBiomes:wall:24, Red Granite Wall
+UndergroundBiomes:wall:25, Black Granite Wall
+UndergroundBiomes:wall:26, Rhyolite Wall
+UndergroundBiomes:wall:27, Andesite Wall
+UndergroundBiomes:wall:28, Gabbro Wall
+UndergroundBiomes:wall:29, Basalt Wall
+UndergroundBiomes:wall:30, Komatiite Wall
+UndergroundBiomes:wall:31, Dacite Wall
+UndergroundBiomes:wall:32, Red Granite Cobblestone Wall
+UndergroundBiomes:wall:33, Black Granite Cobblestone Wall
+UndergroundBiomes:wall:34, Rhyolite Cobblestone Wall
+UndergroundBiomes:wall:35, Andesite Cobblestone Wall
+UndergroundBiomes:wall:36, Gabbro Cobblestone Wall
+UndergroundBiomes:wall:37, Basalt Cobblestone Wall
+UndergroundBiomes:wall:38, Komatiite Cobblestone Wall
+UndergroundBiomes:wall:39, Dacite Cobblestone Wall
+UndergroundBiomes:wall:40, Red Granite Brick Wall
+UndergroundBiomes:wall:41, Black Granite Brick Wall
+UndergroundBiomes:wall:42, Rhyolite Brick Wall
+UndergroundBiomes:wall:43, Andesite Brick Wall
+UndergroundBiomes:wall:44, Gabbro Brick Wall
+UndergroundBiomes:wall:45, Basalt Brick Wall
+UndergroundBiomes:wall:46, Komatiite Brick Wall
+UndergroundBiomes:wall:47, Dacite Brick Wall
+UndergroundBiomes:wall:48, Limestone Wall
+UndergroundBiomes:wall:49, Chalk Wall
+UndergroundBiomes:wall:50, Shale Wall
+UndergroundBiomes:wall:51, Siltstone Wall
+UndergroundBiomes:wall:52, Lignite Block Wall
+UndergroundBiomes:wall:53, Dolomite Wall
+UndergroundBiomes:wall:54, Greywacke Wall
+UndergroundBiomes:wall:55, Chert Wall
+UndergroundBiomes:wall.tile.igneousStone:0, Red Granite Wall
+UndergroundBiomes:wall.tile.igneousStone:1, Black Granite Wall
+UndergroundBiomes:wall.tile.igneousStone:2, Rhyolite Wall
+UndergroundBiomes:wall.tile.igneousStone:3, Andesite Wall
+UndergroundBiomes:wall.tile.igneousStone:4, Gabbro Wall
+UndergroundBiomes:wall.tile.igneousStone:5, Basalt Wall
+UndergroundBiomes:wall.tile.igneousStone:6, Komatiite Wall
+UndergroundBiomes:wall.tile.igneousStone:7, Dacite Wall
+UndergroundBiomes:wall.tile.igneousCobblestone:0, Red Granite Cobblestone Wall
+UndergroundBiomes:wall.tile.igneousCobblestone:1, Black Granite Cobblestone Wall
+UndergroundBiomes:wall.tile.igneousCobblestone:2, Rhyolite Cobblestone Wall
+UndergroundBiomes:wall.tile.igneousCobblestone:3, Andesite Cobblestone Wall
+UndergroundBiomes:wall.tile.igneousCobblestone:4, Gabbro Cobblestone Wall
+UndergroundBiomes:wall.tile.igneousCobblestone:5, Basalt Cobblestone Wall
+UndergroundBiomes:wall.tile.igneousCobblestone:6, Komatiite Cobblestone Wall
+UndergroundBiomes:wall.tile.igneousCobblestone:7, Dacite Cobblestone Wall
+UndergroundBiomes:wall.tile.igneousStoneBrick:0, Red Granite Brick Wall
+UndergroundBiomes:wall.tile.igneousStoneBrick:1, Black Granite Brick Wall
+UndergroundBiomes:wall.tile.igneousStoneBrick:2, Rhyolite Brick Wall
+UndergroundBiomes:wall.tile.igneousStoneBrick:3, Andesite Brick Wall
+UndergroundBiomes:wall.tile.igneousStoneBrick:4, Gabbro Brick Wall
+UndergroundBiomes:wall.tile.igneousStoneBrick:5, Basalt Brick Wall
+UndergroundBiomes:wall.tile.igneousStoneBrick:6, Komatiite Brick Wall
+UndergroundBiomes:wall.tile.igneousStoneBrick:7, Dacite Brick Wall
+UndergroundBiomes:wall.tile.metamorphicStone:0, Gneiss Wall
+UndergroundBiomes:wall.tile.metamorphicStone:1, Eclogite Wall
+UndergroundBiomes:wall.tile.metamorphicStone:2, Marble Wall
+UndergroundBiomes:wall.tile.metamorphicStone:3, Quartzite Wall
+UndergroundBiomes:wall.tile.metamorphicStone:4, Blue Schist Wall
+UndergroundBiomes:wall.tile.metamorphicStone:5, Green Schist Wall
+UndergroundBiomes:wall.tile.metamorphicStone:6, Soapstone Wall
+UndergroundBiomes:wall.tile.metamorphicStone:7, Migmatite Wall
+UndergroundBiomes:wall.tile.metamorphicCobblestone:0, Gneiss Cobblestone Wall
+UndergroundBiomes:wall.tile.metamorphicCobblestone:1, Eclogite Cobblestone Wall
+UndergroundBiomes:wall.tile.metamorphicCobblestone:2, Marble Cobblestone Wall
+UndergroundBiomes:wall.tile.metamorphicCobblestone:3, Quartzite Cobblestone Wall
+UndergroundBiomes:wall.tile.metamorphicCobblestone:4, Blue Schist Cobblestone Wall
+UndergroundBiomes:wall.tile.metamorphicCobblestone:5, Green Schist Cobblestone Wall
+UndergroundBiomes:wall.tile.metamorphicCobblestone:6, Soapstone Cobblestone Wall
+UndergroundBiomes:wall.tile.metamorphicCobblestone:7, Migmatite Cobblestone Wall
+UndergroundBiomes:wall.tile.metamorphicStoneBrick:0, Gneiss Brick Wall
+UndergroundBiomes:wall.tile.metamorphicStoneBrick:1, Eclogite Brick Wall
+UndergroundBiomes:wall.tile.metamorphicStoneBrick:2, Marble Brick Wall
+UndergroundBiomes:wall.tile.metamorphicStoneBrick:3, Quartzite Brick Wall
+UndergroundBiomes:wall.tile.metamorphicStoneBrick:4, Blue Schist Brick Wall
+UndergroundBiomes:wall.tile.metamorphicStoneBrick:5, Green Schist Brick Wall
+UndergroundBiomes:wall.tile.metamorphicStoneBrick:6, Soapstone Brick Wall
+UndergroundBiomes:wall.tile.metamorphicStoneBrick:7, Migmatite Brick Wall
+UndergroundBiomes:wall.tile.sedimentaryStone:0, Limestone Wall
+UndergroundBiomes:wall.tile.sedimentaryStone:1, Chalk Wall
+UndergroundBiomes:wall.tile.sedimentaryStone:2, Shale Wall
+UndergroundBiomes:wall.tile.sedimentaryStone:3, Siltstone Wall
+UndergroundBiomes:wall.tile.sedimentaryStone:4, Lignite Block Wall
+UndergroundBiomes:wall.tile.sedimentaryStone:5, Dolomite Wall
+UndergroundBiomes:wall.tile.sedimentaryStone:6, Greywacke Wall
+UndergroundBiomes:wall.tile.sedimentaryStone:7, Chert Wall
+UndergroundBiomes:igneous_oreRedstone:0, Red Granite Redstone Ore
+UndergroundBiomes:igneous_oreRedstone:1, Black Granite Redstone Ore
+UndergroundBiomes:igneous_oreRedstone:2, Rhyolite Redstone Ore
+UndergroundBiomes:igneous_oreRedstone:3, Andesite Redstone Ore
+UndergroundBiomes:igneous_oreRedstone:4, Gabbro Redstone Ore
+UndergroundBiomes:igneous_oreRedstone:5, Basalt Redstone Ore
+UndergroundBiomes:igneous_oreRedstone:6, Komatiite Redstone Ore
+UndergroundBiomes:igneous_oreRedstone:7, Dacite Redstone Ore
+UndergroundBiomes:metamorphic_oreRedstone:0, Gneiss Redstone Ore
+UndergroundBiomes:metamorphic_oreRedstone:1, Eclogite Redstone Ore
+UndergroundBiomes:metamorphic_oreRedstone:2, Marble Redstone Ore
+UndergroundBiomes:metamorphic_oreRedstone:3, Quartzite Redstone Ore
+UndergroundBiomes:metamorphic_oreRedstone:4, Blue Schist Redstone Ore
+UndergroundBiomes:metamorphic_oreRedstone:5, Green Schist Redstone Ore
+UndergroundBiomes:metamorphic_oreRedstone:6, Soapstone Redstone Ore
+UndergroundBiomes:metamorphic_oreRedstone:7, Migmatite Redstone Ore
+UndergroundBiomes:sedimentary_oreRedstone:0, Limestone Redstone Ore
+UndergroundBiomes:sedimentary_oreRedstone:1, Chalk Redstone Ore
+UndergroundBiomes:sedimentary_oreRedstone:2, Shale Redstone Ore
+UndergroundBiomes:sedimentary_oreRedstone:3, Siltstone Redstone Ore
+UndergroundBiomes:sedimentary_oreRedstone:4, Lignite Block Redstone Ore
+UndergroundBiomes:sedimentary_oreRedstone:5, Dolomite Redstone Ore
+UndergroundBiomes:sedimentary_oreRedstone:6, Greywacke Redstone Ore
+UndergroundBiomes:sedimentary_oreRedstone:7, Chert Redstone Ore
+UndergroundBiomes:igneous_oreCoal:0, Red Granite Coal Ore
+UndergroundBiomes:igneous_oreCoal:1, Black Granite Coal Ore
+UndergroundBiomes:igneous_oreCoal:2, Rhyolite Coal Ore
+UndergroundBiomes:igneous_oreCoal:3, Andesite Coal Ore
+UndergroundBiomes:igneous_oreCoal:4, Gabbro Coal Ore
+UndergroundBiomes:igneous_oreCoal:5, Basalt Coal Ore
+UndergroundBiomes:igneous_oreCoal:6, Komatiite Coal Ore
+UndergroundBiomes:igneous_oreCoal:7, Dacite Coal Ore
+UndergroundBiomes:metamorphic_oreCoal:0, Gneiss Coal Ore
+UndergroundBiomes:metamorphic_oreCoal:1, Eclogite Coal Ore
+UndergroundBiomes:metamorphic_oreCoal:2, Marble Coal Ore
+UndergroundBiomes:metamorphic_oreCoal:3, Quartzite Coal Ore
+UndergroundBiomes:metamorphic_oreCoal:4, Blue Schist Coal Ore
+UndergroundBiomes:metamorphic_oreCoal:5, Green Schist Coal Ore
+UndergroundBiomes:metamorphic_oreCoal:6, Soapstone Coal Ore
+UndergroundBiomes:metamorphic_oreCoal:7, Migmatite Coal Ore
+UndergroundBiomes:sedimentary_oreCoal:0, Limestone Coal Ore
+UndergroundBiomes:sedimentary_oreCoal:1, Chalk Coal Ore
+UndergroundBiomes:sedimentary_oreCoal:2, Shale Coal Ore
+UndergroundBiomes:sedimentary_oreCoal:3, Siltstone Coal Ore
+UndergroundBiomes:sedimentary_oreCoal:4, Lignite Block Coal Ore
+UndergroundBiomes:sedimentary_oreCoal:5, Dolomite Coal Ore
+UndergroundBiomes:sedimentary_oreCoal:6, Greywacke Coal Ore
+UndergroundBiomes:sedimentary_oreCoal:7, Chert Coal Ore
+UndergroundBiomes:igneous_oreDiamond:0, Red Granite Diamond Ore
+UndergroundBiomes:igneous_oreDiamond:1, Black Granite Diamond Ore
+UndergroundBiomes:igneous_oreDiamond:2, Rhyolite Diamond Ore
+UndergroundBiomes:igneous_oreDiamond:3, Andesite Diamond Ore
+UndergroundBiomes:igneous_oreDiamond:4, Gabbro Diamond Ore
+UndergroundBiomes:igneous_oreDiamond:5, Basalt Diamond Ore
+UndergroundBiomes:igneous_oreDiamond:6, Komatiite Diamond Ore
+UndergroundBiomes:igneous_oreDiamond:7, Dacite Diamond Ore
+UndergroundBiomes:metamorphic_oreDiamond:0, Gneiss Diamond Ore
+UndergroundBiomes:metamorphic_oreDiamond:1, Eclogite Diamond Ore
+UndergroundBiomes:metamorphic_oreDiamond:2, Marble Diamond Ore
+UndergroundBiomes:metamorphic_oreDiamond:3, Quartzite Diamond Ore
+UndergroundBiomes:metamorphic_oreDiamond:4, Blue Schist Diamond Ore
+UndergroundBiomes:metamorphic_oreDiamond:5, Green Schist Diamond Ore
+UndergroundBiomes:metamorphic_oreDiamond:6, Soapstone Diamond Ore
+UndergroundBiomes:metamorphic_oreDiamond:7, Migmatite Diamond Ore
+UndergroundBiomes:sedimentary_oreDiamond:0, Limestone Diamond Ore
+UndergroundBiomes:sedimentary_oreDiamond:1, Chalk Diamond Ore
+UndergroundBiomes:sedimentary_oreDiamond:2, Shale Diamond Ore
+UndergroundBiomes:sedimentary_oreDiamond:3, Siltstone Diamond Ore
+UndergroundBiomes:sedimentary_oreDiamond:4, Lignite Block Diamond Ore
+UndergroundBiomes:sedimentary_oreDiamond:5, Dolomite Diamond Ore
+UndergroundBiomes:sedimentary_oreDiamond:6, Greywacke Diamond Ore
+UndergroundBiomes:sedimentary_oreDiamond:7, Chert Diamond Ore
+UndergroundBiomes:igneous_oreLapis:0, Red Granite Lapis Lazuli Ore
+UndergroundBiomes:igneous_oreLapis:1, Black Granite Lapis Lazuli Ore
+UndergroundBiomes:igneous_oreLapis:2, Rhyolite Lapis Lazuli Ore
+UndergroundBiomes:igneous_oreLapis:3, Andesite Lapis Lazuli Ore
+UndergroundBiomes:igneous_oreLapis:4, Gabbro Lapis Lazuli Ore
+UndergroundBiomes:igneous_oreLapis:5, Basalt Lapis Lazuli Ore
+UndergroundBiomes:igneous_oreLapis:6, Komatiite Lapis Lazuli Ore
+UndergroundBiomes:igneous_oreLapis:7, Dacite Lapis Lazuli Ore
+UndergroundBiomes:metamorphic_oreLapis:0, Gneiss Lapis Lazuli Ore
+UndergroundBiomes:metamorphic_oreLapis:1, Eclogite Lapis Lazuli Ore
+UndergroundBiomes:metamorphic_oreLapis:2, Marble Lapis Lazuli Ore
+UndergroundBiomes:metamorphic_oreLapis:3, Quartzite Lapis Lazuli Ore
+UndergroundBiomes:metamorphic_oreLapis:4, Blue Schist Lapis Lazuli Ore
+UndergroundBiomes:metamorphic_oreLapis:5, Green Schist Lapis Lazuli Ore
+UndergroundBiomes:metamorphic_oreLapis:6, Soapstone Lapis Lazuli Ore
+UndergroundBiomes:metamorphic_oreLapis:7, Migmatite Lapis Lazuli Ore
+UndergroundBiomes:sedimentary_oreLapis:0, Limestone Lapis Lazuli Ore
+UndergroundBiomes:sedimentary_oreLapis:1, Chalk Lapis Lazuli Ore
+UndergroundBiomes:sedimentary_oreLapis:2, Shale Lapis Lazuli Ore
+UndergroundBiomes:sedimentary_oreLapis:3, Siltstone Lapis Lazuli Ore
+UndergroundBiomes:sedimentary_oreLapis:4, Lignite Block Lapis Lazuli Ore
+UndergroundBiomes:sedimentary_oreLapis:5, Dolomite Lapis Lazuli Ore
+UndergroundBiomes:sedimentary_oreLapis:6, Greywacke Lapis Lazuli Ore
+UndergroundBiomes:sedimentary_oreLapis:7, Chert Lapis Lazuli Ore
+UndergroundBiomes:igneous_oreEmerald:0, Red Granite Emerald Ore
+UndergroundBiomes:igneous_oreEmerald:1, Black Granite Emerald Ore
+UndergroundBiomes:igneous_oreEmerald:2, Rhyolite Emerald Ore
+UndergroundBiomes:igneous_oreEmerald:3, Andesite Emerald Ore
+UndergroundBiomes:igneous_oreEmerald:4, Gabbro Emerald Ore
+UndergroundBiomes:igneous_oreEmerald:5, Basalt Emerald Ore
+UndergroundBiomes:igneous_oreEmerald:6, Komatiite Emerald Ore
+UndergroundBiomes:igneous_oreEmerald:7, Dacite Emerald Ore
+UndergroundBiomes:metamorphic_oreEmerald:0, Gneiss Emerald Ore
+UndergroundBiomes:metamorphic_oreEmerald:1, Eclogite Emerald Ore
+UndergroundBiomes:metamorphic_oreEmerald:2, Marble Emerald Ore
+UndergroundBiomes:metamorphic_oreEmerald:3, Quartzite Emerald Ore
+UndergroundBiomes:metamorphic_oreEmerald:4, Blue Schist Emerald Ore
+UndergroundBiomes:metamorphic_oreEmerald:5, Green Schist Emerald Ore
+UndergroundBiomes:metamorphic_oreEmerald:6, Soapstone Emerald Ore
+UndergroundBiomes:metamorphic_oreEmerald:7, Migmatite Emerald Ore
+UndergroundBiomes:sedimentary_oreEmerald:0, Limestone Emerald Ore
+UndergroundBiomes:sedimentary_oreEmerald:1, Chalk Emerald Ore
+UndergroundBiomes:sedimentary_oreEmerald:2, Shale Emerald Ore
+UndergroundBiomes:sedimentary_oreEmerald:3, Siltstone Emerald Ore
+UndergroundBiomes:sedimentary_oreEmerald:4, Lignite Block Emerald Ore
+UndergroundBiomes:sedimentary_oreEmerald:5, Dolomite Emerald Ore
+UndergroundBiomes:sedimentary_oreEmerald:6, Greywacke Emerald Ore
+UndergroundBiomes:sedimentary_oreEmerald:7, Chert Emerald Ore
+UndergroundBiomes:igneous_oreGold:0, Red Granite Gold Ore
+UndergroundBiomes:igneous_oreGold:1, Black Granite Gold Ore
+UndergroundBiomes:igneous_oreGold:2, Rhyolite Gold Ore
+UndergroundBiomes:igneous_oreGold:3, Andesite Gold Ore
+UndergroundBiomes:igneous_oreGold:4, Gabbro Gold Ore
+UndergroundBiomes:igneous_oreGold:5, Basalt Gold Ore
+UndergroundBiomes:igneous_oreGold:6, Komatiite Gold Ore
+UndergroundBiomes:igneous_oreGold:7, Dacite Gold Ore
+UndergroundBiomes:metamorphic_oreGold:0, Gneiss Gold Ore
+UndergroundBiomes:metamorphic_oreGold:1, Eclogite Gold Ore
+UndergroundBiomes:metamorphic_oreGold:2, Marble Gold Ore
+UndergroundBiomes:metamorphic_oreGold:3, Quartzite Gold Ore
+UndergroundBiomes:metamorphic_oreGold:4, Blue Schist Gold Ore
+UndergroundBiomes:metamorphic_oreGold:5, Green Schist Gold Ore
+UndergroundBiomes:metamorphic_oreGold:6, Soapstone Gold Ore
+UndergroundBiomes:metamorphic_oreGold:7, Migmatite Gold Ore
+UndergroundBiomes:sedimentary_oreGold:0, Limestone Gold Ore
+UndergroundBiomes:sedimentary_oreGold:1, Chalk Gold Ore
+UndergroundBiomes:sedimentary_oreGold:2, Shale Gold Ore
+UndergroundBiomes:sedimentary_oreGold:3, Siltstone Gold Ore
+UndergroundBiomes:sedimentary_oreGold:4, Lignite Block Gold Ore
+UndergroundBiomes:sedimentary_oreGold:5, Dolomite Gold Ore
+UndergroundBiomes:sedimentary_oreGold:6, Greywacke Gold Ore
+UndergroundBiomes:sedimentary_oreGold:7, Chert Gold Ore
+UndergroundBiomes:igneous_monsterStoneEgg:0, redGranite
+UndergroundBiomes:igneous_monsterStoneEgg:1, blackGranite
+UndergroundBiomes:igneous_monsterStoneEgg:2, rhyolite
+UndergroundBiomes:igneous_monsterStoneEgg:3, andesite
+UndergroundBiomes:igneous_monsterStoneEgg:4, gabbro
+UndergroundBiomes:igneous_monsterStoneEgg:5, basalt
+UndergroundBiomes:igneous_monsterStoneEgg:6, komatiite
+UndergroundBiomes:igneous_monsterStoneEgg:7, dacite
+UndergroundBiomes:metamorphic_monsterStoneEgg:0, gneiss
+UndergroundBiomes:metamorphic_monsterStoneEgg:1, eclogite
+UndergroundBiomes:metamorphic_monsterStoneEgg:2, marble
+UndergroundBiomes:metamorphic_monsterStoneEgg:3, quartzite
+UndergroundBiomes:metamorphic_monsterStoneEgg:4, blueschist
+UndergroundBiomes:metamorphic_monsterStoneEgg:5, greenschist
+UndergroundBiomes:metamorphic_monsterStoneEgg:6, soapstone
+UndergroundBiomes:metamorphic_monsterStoneEgg:7, migmatite
+UndergroundBiomes:sedimentary_monsterStoneEgg:0, limestone
+UndergroundBiomes:sedimentary_monsterStoneEgg:1, chalk
+UndergroundBiomes:sedimentary_monsterStoneEgg:2, shale
+UndergroundBiomes:sedimentary_monsterStoneEgg:3, siltstone
+UndergroundBiomes:sedimentary_monsterStoneEgg:4, ligniteBlock
+UndergroundBiomes:sedimentary_monsterStoneEgg:5, dolomite
+UndergroundBiomes:sedimentary_monsterStoneEgg:6, greywacke
+UndergroundBiomes:sedimentary_monsterStoneEgg:7, chert
+UndergroundBiomes:igneous_tconstruct.stoneore.3:0, Red Granite Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:1, Black Granite Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:2, Rhyolite Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:3, Andesite Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:4, Gabbro Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:5, Basalt Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:6, Komatiite Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.3:7, Dacite Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:0, Gneiss Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:1, Eclogite Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:2, Marble Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:3, Quartzite Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:4, Blue Schist Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:5, Green Schist Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:6, Soapstone Copper Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.3:7, Migmatite Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:0, Limestone Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:1, Chalk Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:2, Shale Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:3, Siltstone Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:4, Lignite Block Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:5, Dolomite Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:6, Greywacke Copper Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.3:7, Chert Copper Ore
+UndergroundBiomes:igneous_oreIron:0, Red Granite Iron Ore
+UndergroundBiomes:igneous_oreIron:1, Black Granite Iron Ore
+UndergroundBiomes:igneous_oreIron:2, Rhyolite Iron Ore
+UndergroundBiomes:igneous_oreIron:3, Andesite Iron Ore
+UndergroundBiomes:igneous_oreIron:4, Gabbro Iron Ore
+UndergroundBiomes:igneous_oreIron:5, Basalt Iron Ore
+UndergroundBiomes:igneous_oreIron:6, Komatiite Iron Ore
+UndergroundBiomes:igneous_oreIron:7, Dacite Iron Ore
+UndergroundBiomes:metamorphic_oreIron:0, Gneiss Iron Ore
+UndergroundBiomes:metamorphic_oreIron:1, Eclogite Iron Ore
+UndergroundBiomes:metamorphic_oreIron:2, Marble Iron Ore
+UndergroundBiomes:metamorphic_oreIron:3, Quartzite Iron Ore
+UndergroundBiomes:metamorphic_oreIron:4, Blue Schist Iron Ore
+UndergroundBiomes:metamorphic_oreIron:5, Green Schist Iron Ore
+UndergroundBiomes:metamorphic_oreIron:6, Soapstone Iron Ore
+UndergroundBiomes:metamorphic_oreIron:7, Migmatite Iron Ore
+UndergroundBiomes:sedimentary_oreIron:0, Limestone Iron Ore
+UndergroundBiomes:sedimentary_oreIron:1, Chalk Iron Ore
+UndergroundBiomes:sedimentary_oreIron:2, Shale Iron Ore
+UndergroundBiomes:sedimentary_oreIron:3, Siltstone Iron Ore
+UndergroundBiomes:sedimentary_oreIron:4, Lignite Block Iron Ore
+UndergroundBiomes:sedimentary_oreIron:5, Dolomite Iron Ore
+UndergroundBiomes:sedimentary_oreIron:6, Greywacke Iron Ore
+UndergroundBiomes:sedimentary_oreIron:7, Chert Iron Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:0, Red Granite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:1, Black Granite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:2, Rhyolite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:3, Andesite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:4, Gabbro Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:5, Basalt Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:6, Komatiite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:7, Dacite Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:0, Gneiss Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:1, Eclogite Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:2, Marble Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:3, Quartzite Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:4, Blue Schist Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:5, Green Schist Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:6, Soapstone Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:7, Migmatite Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:0, Limestone Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:1, Chalk Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:2, Shale Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:3, Siltstone Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:4, Lignite Block Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:5, Dolomite Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:6, Greywacke Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:7, Chert Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:0, Red Granite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:1, Black Granite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:2, Rhyolite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:3, Andesite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:4, Gabbro Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:5, Basalt Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:6, Komatiite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:7, Dacite Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:0, Gneiss Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:1, Eclogite Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:2, Marble Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:3, Quartzite Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:4, Blue Schist Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:5, Green Schist Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:6, Soapstone Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:7, Migmatite Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:0, Limestone Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:1, Chalk Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:2, Shale Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:3, Siltstone Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:4, Lignite Block Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:5, Dolomite Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:6, Greywacke Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:7, Chert Aluminum Ore
 witchery:belladonna, Belladonna
 witchery:mandrake, Mandrake
 witchery:artichoke, Water Artichoke
@@ -11894,8 +12590,8 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - RedAurum Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
@@ -12052,6 +12748,326 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Tigerwood Trim
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Willow Trim
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Darkwood Trim
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fusewood Trim
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Black Granite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rhyolite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Andesite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gabbro
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Basalt
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Komatiite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Dacite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Black Granite Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rhyolite Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Andesite Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gabbro Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Basalt Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Komatiite Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Dacite Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Black Granite Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rhyolite Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Andesite Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gabbro Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Basalt Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Komatiite Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Dacite Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Eclogite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Marble
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Quartzite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Blue Schist
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Green Schist
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Soapstone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Migmatite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Eclogite Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Marble Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Quartzite Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Blue Schist Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Green Schist Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Soapstone Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Migmatite Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Eclogite Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Marble Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Quartzite Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Blue Schist Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Green Schist Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Soapstone Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Migmatite Bricks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Chalk
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Shale
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Siltstone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lignite Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Dolomite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Greywacke
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Chert
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Redstone Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Coal Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Diamond Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Lapis Lazuli Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Emerald Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Gold Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - redGranite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - redGranite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - redGranite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - redGranite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - redGranite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - redGranite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - redGranite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - redGranite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - gneiss
+appliedenergistics2:item.ItemFacade:0, Cable Facade - gneiss
+appliedenergistics2:item.ItemFacade:0, Cable Facade - gneiss
+appliedenergistics2:item.ItemFacade:0, Cable Facade - gneiss
+appliedenergistics2:item.ItemFacade:0, Cable Facade - gneiss
+appliedenergistics2:item.ItemFacade:0, Cable Facade - gneiss
+appliedenergistics2:item.ItemFacade:0, Cable Facade - gneiss
+appliedenergistics2:item.ItemFacade:0, Cable Facade - gneiss
+appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Rowan Wood
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Alder Wood
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Hawthorn Wood
@@ -24589,25 +25605,25 @@ ThermalDynamics:cover:0, Molten Constantan Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
 ThermalDynamics:cover:0, tile.gaseousLight.name Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
+ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, Paving Stair of Travel Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
 ThermalDynamics:cover:0, Paving Slab of Travel Cover
 ThermalDynamics:cover:0, Paving Slab of Travel Cover
 ThermalDynamics:cover:0, Ignis Imbued Fire Cover
-ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
-ThermalDynamics:cover:0, Paving Stair of Travel Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
@@ -24863,6 +25879,550 @@ ThermalDynamics:cover:0, Wide Mesh Filter Cover
 ThermalDynamics:cover:0, Slat Mesh Filter Cover
 ThermalDynamics:cover:0, Mesh Filter Cover
 ThermalDynamics:cover:0, Fine Mesh Filter Cover
+ThermalDynamics:cover:0, Red Granite Cover
+ThermalDynamics:cover:0, Black Granite Cover
+ThermalDynamics:cover:0, Rhyolite Cover
+ThermalDynamics:cover:0, Andesite Cover
+ThermalDynamics:cover:0, Gabbro Cover
+ThermalDynamics:cover:0, Basalt Cover
+ThermalDynamics:cover:0, Komatiite Cover
+ThermalDynamics:cover:0, Dacite Cover
+ThermalDynamics:cover:0, Red Granite Cobblestone Cover
+ThermalDynamics:cover:0, Black Granite Cobblestone Cover
+ThermalDynamics:cover:0, Rhyolite Cobblestone Cover
+ThermalDynamics:cover:0, Andesite Cobblestone Cover
+ThermalDynamics:cover:0, Gabbro Cobblestone Cover
+ThermalDynamics:cover:0, Basalt Cobblestone Cover
+ThermalDynamics:cover:0, Komatiite Cobblestone Cover
+ThermalDynamics:cover:0, Dacite Cobblestone Cover
+ThermalDynamics:cover:0, Red Granite Bricks Cover
+ThermalDynamics:cover:0, Black Granite Bricks Cover
+ThermalDynamics:cover:0, Rhyolite Bricks Cover
+ThermalDynamics:cover:0, Andesite Bricks Cover
+ThermalDynamics:cover:0, Gabbro Bricks Cover
+ThermalDynamics:cover:0, Basalt Bricks Cover
+ThermalDynamics:cover:0, Komatiite Bricks Cover
+ThermalDynamics:cover:0, Dacite Bricks Cover
+ThermalDynamics:cover:0, Gneiss Cover
+ThermalDynamics:cover:0, Eclogite Cover
+ThermalDynamics:cover:0, Marble Cover
+ThermalDynamics:cover:0, Quartzite Cover
+ThermalDynamics:cover:0, Blue Schist Cover
+ThermalDynamics:cover:0, Green Schist Cover
+ThermalDynamics:cover:0, Soapstone Cover
+ThermalDynamics:cover:0, Migmatite Cover
+ThermalDynamics:cover:0, Gneiss Cobblestone Cover
+ThermalDynamics:cover:0, Eclogite Cobblestone Cover
+ThermalDynamics:cover:0, Marble Cobblestone Cover
+ThermalDynamics:cover:0, Quartzite Cobblestone Cover
+ThermalDynamics:cover:0, Blue Schist Cobblestone Cover
+ThermalDynamics:cover:0, Green Schist Cobblestone Cover
+ThermalDynamics:cover:0, Soapstone Cobblestone Cover
+ThermalDynamics:cover:0, Migmatite Cobblestone Cover
+ThermalDynamics:cover:0, Gneiss Bricks Cover
+ThermalDynamics:cover:0, Eclogite Bricks Cover
+ThermalDynamics:cover:0, Marble Bricks Cover
+ThermalDynamics:cover:0, Quartzite Bricks Cover
+ThermalDynamics:cover:0, Blue Schist Bricks Cover
+ThermalDynamics:cover:0, Green Schist Bricks Cover
+ThermalDynamics:cover:0, Soapstone Bricks Cover
+ThermalDynamics:cover:0, Migmatite Bricks Cover
+ThermalDynamics:cover:0, Limestone Cover
+ThermalDynamics:cover:0, Chalk Cover
+ThermalDynamics:cover:0, Shale Cover
+ThermalDynamics:cover:0, Siltstone Cover
+ThermalDynamics:cover:0, Lignite Block Cover
+ThermalDynamics:cover:0, Dolomite Cover
+ThermalDynamics:cover:0, Greywacke Cover
+ThermalDynamics:cover:0, Chert Cover
+ThermalDynamics:cover:0, Red Granite Brick Slab Cover
+ThermalDynamics:cover:0, Black Granite Brick Slab Cover
+ThermalDynamics:cover:0, Rhyolite Brick Slab Cover
+ThermalDynamics:cover:0, Andesite Brick Slab Cover
+ThermalDynamics:cover:0, Gabbro Brick Slab Cover
+ThermalDynamics:cover:0, Basalt Brick Slab Cover
+ThermalDynamics:cover:0, Komatiite Brick Slab Cover
+ThermalDynamics:cover:0, Dacite Brick Slab Cover
+ThermalDynamics:cover:0, Gneiss Brick Slab Cover
+ThermalDynamics:cover:0, Eclogite Brick Slab Cover
+ThermalDynamics:cover:0, Marble Brick Slab Cover
+ThermalDynamics:cover:0, Quartzite Brick Slab Cover
+ThermalDynamics:cover:0, Blue Schist Brick Slab Cover
+ThermalDynamics:cover:0, Green Schist Brick Slab Cover
+ThermalDynamics:cover:0, Soapstone Brick Slab Cover
+ThermalDynamics:cover:0, Migmatite Brick Slab Cover
+ThermalDynamics:cover:0, Red Granite Slab Cover
+ThermalDynamics:cover:0, Black Granite Slab Cover
+ThermalDynamics:cover:0, Rhyolite Slab Cover
+ThermalDynamics:cover:0, Andesite Slab Cover
+ThermalDynamics:cover:0, Gabbro Slab Cover
+ThermalDynamics:cover:0, Basalt Slab Cover
+ThermalDynamics:cover:0, Komatiite Slab Cover
+ThermalDynamics:cover:0, Dacite Slab Cover
+ThermalDynamics:cover:0, Gneiss Slab Cover
+ThermalDynamics:cover:0, Eclogite Slab Cover
+ThermalDynamics:cover:0, Marble Slab Cover
+ThermalDynamics:cover:0, Quartzite Slab Cover
+ThermalDynamics:cover:0, Blue Schist Slab Cover
+ThermalDynamics:cover:0, Green Schist Slab Cover
+ThermalDynamics:cover:0, Soapstone Slab Cover
+ThermalDynamics:cover:0, Migmatite Slab Cover
+ThermalDynamics:cover:0, Red Granite Cobblestone Slab Cover
+ThermalDynamics:cover:0, Black Granite Cobblestone Slab Cover
+ThermalDynamics:cover:0, Rhyolite Cobblestone Slab Cover
+ThermalDynamics:cover:0, Andesite Cobblestone Slab Cover
+ThermalDynamics:cover:0, Gabbro Cobblestone Slab Cover
+ThermalDynamics:cover:0, Basalt Cobblestone Slab Cover
+ThermalDynamics:cover:0, Komatiite Cobblestone Slab Cover
+ThermalDynamics:cover:0, Dacite Cobblestone Slab Cover
+ThermalDynamics:cover:0, Gneiss Cobblestone Slab Cover
+ThermalDynamics:cover:0, Eclogite Cobblestone Slab Cover
+ThermalDynamics:cover:0, Marble Cobblestone Slab Cover
+ThermalDynamics:cover:0, Quartzite Cobblestone Slab Cover
+ThermalDynamics:cover:0, Blue Schist Cobblestone Slab Cover
+ThermalDynamics:cover:0, Green Schist Cobblestone Slab Cover
+ThermalDynamics:cover:0, Soapstone Cobblestone Slab Cover
+ThermalDynamics:cover:0, Migmatite Cobblestone Slab Cover
+ThermalDynamics:cover:0, Limestone Slab Cover
+ThermalDynamics:cover:0, Chalk Slab Cover
+ThermalDynamics:cover:0, Shale Slab Cover
+ThermalDynamics:cover:0, Siltstone Slab Cover
+ThermalDynamics:cover:0, Lignite Slab Cover
+ThermalDynamics:cover:0, Dolomite Slab Cover
+ThermalDynamics:cover:0, Greywacke Slab Cover
+ThermalDynamics:cover:0, Chert Slab Cover
+ThermalDynamics:cover:0, Red Granite Button Cover
+ThermalDynamics:cover:0, Black Granite Button Cover
+ThermalDynamics:cover:0, Rhyolite Button Cover
+ThermalDynamics:cover:0, Andesite Button Cover
+ThermalDynamics:cover:0, Gabbro Button Cover
+ThermalDynamics:cover:0, Basalt Button Cover
+ThermalDynamics:cover:0, Komatiite Button Cover
+ThermalDynamics:cover:0, Dacite Button Cover
+ThermalDynamics:cover:0, Red Granite Cobblestone Button Cover
+ThermalDynamics:cover:0, Black Granite Cobblestone Button Cover
+ThermalDynamics:cover:0, Rhyolite Cobblestone Button Cover
+ThermalDynamics:cover:0, Andesite Cobblestone Button Cover
+ThermalDynamics:cover:0, Gabbro Cobblestone Button Cover
+ThermalDynamics:cover:0, Basalt Cobblestone Button Cover
+ThermalDynamics:cover:0, Komatiite Cobblestone Button Cover
+ThermalDynamics:cover:0, Dacite Cobblestone Button Cover
+ThermalDynamics:cover:0, Red Granite Brick Button Cover
+ThermalDynamics:cover:0, Black Granite Brick Button Cover
+ThermalDynamics:cover:0, Rhyolite Brick Button Cover
+ThermalDynamics:cover:0, Andesite Brick Button Cover
+ThermalDynamics:cover:0, Gabbro Brick Button Cover
+ThermalDynamics:cover:0, Basalt Brick Button Cover
+ThermalDynamics:cover:0, Komatiite Brick Button Cover
+ThermalDynamics:cover:0, Dacite Brick Button Cover
+ThermalDynamics:cover:0, Gneiss Button Cover
+ThermalDynamics:cover:0, Eclogite Button Cover
+ThermalDynamics:cover:0, Marble Button Cover
+ThermalDynamics:cover:0, Quartzite Button Cover
+ThermalDynamics:cover:0, Blue Schist Button Cover
+ThermalDynamics:cover:0, Green Schist Button Cover
+ThermalDynamics:cover:0, Soapstone Button Cover
+ThermalDynamics:cover:0, Migmatite Button Cover
+ThermalDynamics:cover:0, Gneiss Cobblestone Button Cover
+ThermalDynamics:cover:0, Eclogite Cobblestone Button Cover
+ThermalDynamics:cover:0, Marble Cobblestone Button Cover
+ThermalDynamics:cover:0, Quartzite Cobblestone Button Cover
+ThermalDynamics:cover:0, Blue Schist Cobblestone Button Cover
+ThermalDynamics:cover:0, Green Schist Cobblestone Button Cover
+ThermalDynamics:cover:0, Soapstone Cobblestone Button Cover
+ThermalDynamics:cover:0, Migmatite Cobblestone Button Cover
+ThermalDynamics:cover:0, Gneiss Brick Button Cover
+ThermalDynamics:cover:0, Eclogite Brick Button Cover
+ThermalDynamics:cover:0, Marble Brick Button Cover
+ThermalDynamics:cover:0, Quartzite Brick Button Cover
+ThermalDynamics:cover:0, Blue Schist Brick Button Cover
+ThermalDynamics:cover:0, Green Schist Brick Button Cover
+ThermalDynamics:cover:0, Soapstone Brick Button Cover
+ThermalDynamics:cover:0, Migmatite Brick Button Cover
+ThermalDynamics:cover:0, Limestone Button Cover
+ThermalDynamics:cover:0, Chalk Button Cover
+ThermalDynamics:cover:0, Shale Button Cover
+ThermalDynamics:cover:0, Siltstone Button Cover
+ThermalDynamics:cover:0, Lignite Block Button Cover
+ThermalDynamics:cover:0, Dolomite Button Cover
+ThermalDynamics:cover:0, Greywacke Button Cover
+ThermalDynamics:cover:0, Chert Button Cover
+ThermalDynamics:cover:0, Red Granite Stairs Cover
+ThermalDynamics:cover:0, Black Granite Stairs Cover
+ThermalDynamics:cover:0, Rhyolite Stairs Cover
+ThermalDynamics:cover:0, Andesite Stairs Cover
+ThermalDynamics:cover:0, Gabbro Stairs Cover
+ThermalDynamics:cover:0, Basalt Stairs Cover
+ThermalDynamics:cover:0, Komatiite Stairs Cover
+ThermalDynamics:cover:0, Dacite Stairs Cover
+ThermalDynamics:cover:0, Red Granite Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Black Granite Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Rhyolite Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Andesite Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Gabbro Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Basalt Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Komatiite Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Dacite Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Red Granite Brick Stairs Cover
+ThermalDynamics:cover:0, Black Granite Brick Stairs Cover
+ThermalDynamics:cover:0, Rhyolite Brick Stairs Cover
+ThermalDynamics:cover:0, Andesite Brick Stairs Cover
+ThermalDynamics:cover:0, Gabbro Brick Stairs Cover
+ThermalDynamics:cover:0, Basalt Brick Stairs Cover
+ThermalDynamics:cover:0, Komatiite Brick Stairs Cover
+ThermalDynamics:cover:0, Dacite Brick Stairs Cover
+ThermalDynamics:cover:0, Gneiss Stairs Cover
+ThermalDynamics:cover:0, Eclogite Stairs Cover
+ThermalDynamics:cover:0, Marble Stairs Cover
+ThermalDynamics:cover:0, Quartzite Stairs Cover
+ThermalDynamics:cover:0, Blue Schist Stairs Cover
+ThermalDynamics:cover:0, Green Schist Stairs Cover
+ThermalDynamics:cover:0, Soapstone Stairs Cover
+ThermalDynamics:cover:0, Migmatite Stairs Cover
+ThermalDynamics:cover:0, Gneiss Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Eclogite Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Marble Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Quartzite Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Blue Schist Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Green Schist Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Soapstone Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Migmatite Cobblestone Stairs Cover
+ThermalDynamics:cover:0, Gneiss Brick Stairs Cover
+ThermalDynamics:cover:0, Eclogite Brick Stairs Cover
+ThermalDynamics:cover:0, Marble Brick Stairs Cover
+ThermalDynamics:cover:0, Quartzite Brick Stairs Cover
+ThermalDynamics:cover:0, Blue Schist Brick Stairs Cover
+ThermalDynamics:cover:0, Green Schist Brick Stairs Cover
+ThermalDynamics:cover:0, Soapstone Brick Stairs Cover
+ThermalDynamics:cover:0, Migmatite Brick Stairs Cover
+ThermalDynamics:cover:0, Limestone Stairs Cover
+ThermalDynamics:cover:0, Chalk Stairs Cover
+ThermalDynamics:cover:0, Shale Stairs Cover
+ThermalDynamics:cover:0, Siltstone Stairs Cover
+ThermalDynamics:cover:0, Lignite Block Stairs Cover
+ThermalDynamics:cover:0, Dolomite Stairs Cover
+ThermalDynamics:cover:0, Greywacke Stairs Cover
+ThermalDynamics:cover:0, Chert Stairs Cover
+ThermalDynamics:cover:0, Red Granite Wall Cover
+ThermalDynamics:cover:0, Black Granite Wall Cover
+ThermalDynamics:cover:0, Rhyolite Wall Cover
+ThermalDynamics:cover:0, Andesite Wall Cover
+ThermalDynamics:cover:0, Gabbro Wall Cover
+ThermalDynamics:cover:0, Basalt Wall Cover
+ThermalDynamics:cover:0, Komatiite Wall Cover
+ThermalDynamics:cover:0, Dacite Wall Cover
+ThermalDynamics:cover:0, Red Granite Cobblestone Wall Cover
+ThermalDynamics:cover:0, Black Granite Cobblestone Wall Cover
+ThermalDynamics:cover:0, Rhyolite Cobblestone Wall Cover
+ThermalDynamics:cover:0, Andesite Cobblestone Wall Cover
+ThermalDynamics:cover:0, Gabbro Cobblestone Wall Cover
+ThermalDynamics:cover:0, Basalt Cobblestone Wall Cover
+ThermalDynamics:cover:0, Komatiite Cobblestone Wall Cover
+ThermalDynamics:cover:0, Dacite Cobblestone Wall Cover
+ThermalDynamics:cover:0, Red Granite Brick Wall Cover
+ThermalDynamics:cover:0, Black Granite Brick Wall Cover
+ThermalDynamics:cover:0, Rhyolite Brick Wall Cover
+ThermalDynamics:cover:0, Andesite Brick Wall Cover
+ThermalDynamics:cover:0, Gabbro Brick Wall Cover
+ThermalDynamics:cover:0, Basalt Brick Wall Cover
+ThermalDynamics:cover:0, Komatiite Brick Wall Cover
+ThermalDynamics:cover:0, Dacite Brick Wall Cover
+ThermalDynamics:cover:0, Gneiss Wall Cover
+ThermalDynamics:cover:0, Eclogite Wall Cover
+ThermalDynamics:cover:0, Marble Wall Cover
+ThermalDynamics:cover:0, Quartzite Wall Cover
+ThermalDynamics:cover:0, Blue Schist Wall Cover
+ThermalDynamics:cover:0, Green Schist Wall Cover
+ThermalDynamics:cover:0, Soapstone Wall Cover
+ThermalDynamics:cover:0, Migmatite Wall Cover
+ThermalDynamics:cover:0, Gneiss Cobblestone Wall Cover
+ThermalDynamics:cover:0, Eclogite Cobblestone Wall Cover
+ThermalDynamics:cover:0, Marble Cobblestone Wall Cover
+ThermalDynamics:cover:0, Quartzite Cobblestone Wall Cover
+ThermalDynamics:cover:0, Blue Schist Cobblestone Wall Cover
+ThermalDynamics:cover:0, Green Schist Cobblestone Wall Cover
+ThermalDynamics:cover:0, Soapstone Cobblestone Wall Cover
+ThermalDynamics:cover:0, Migmatite Cobblestone Wall Cover
+ThermalDynamics:cover:0, Gneiss Brick Wall Cover
+ThermalDynamics:cover:0, Eclogite Brick Wall Cover
+ThermalDynamics:cover:0, Marble Brick Wall Cover
+ThermalDynamics:cover:0, Quartzite Brick Wall Cover
+ThermalDynamics:cover:0, Blue Schist Brick Wall Cover
+ThermalDynamics:cover:0, Green Schist Brick Wall Cover
+ThermalDynamics:cover:0, Soapstone Brick Wall Cover
+ThermalDynamics:cover:0, Migmatite Brick Wall Cover
+ThermalDynamics:cover:0, Limestone Wall Cover
+ThermalDynamics:cover:0, Chalk Wall Cover
+ThermalDynamics:cover:0, Shale Wall Cover
+ThermalDynamics:cover:0, Siltstone Wall Cover
+ThermalDynamics:cover:0, Lignite Block Wall Cover
+ThermalDynamics:cover:0, Dolomite Wall Cover
+ThermalDynamics:cover:0, Greywacke Wall Cover
+ThermalDynamics:cover:0, Chert Wall Cover
+ThermalDynamics:cover:0, Red Granite Redstone Ore Cover
+ThermalDynamics:cover:0, Red Granite Redstone Ore Cover
+ThermalDynamics:cover:0, Red Granite Redstone Ore Cover
+ThermalDynamics:cover:0, Red Granite Redstone Ore Cover
+ThermalDynamics:cover:0, Red Granite Redstone Ore Cover
+ThermalDynamics:cover:0, Red Granite Redstone Ore Cover
+ThermalDynamics:cover:0, Red Granite Redstone Ore Cover
+ThermalDynamics:cover:0, Red Granite Redstone Ore Cover
+ThermalDynamics:cover:0, Gneiss Redstone Ore Cover
+ThermalDynamics:cover:0, Gneiss Redstone Ore Cover
+ThermalDynamics:cover:0, Gneiss Redstone Ore Cover
+ThermalDynamics:cover:0, Gneiss Redstone Ore Cover
+ThermalDynamics:cover:0, Gneiss Redstone Ore Cover
+ThermalDynamics:cover:0, Gneiss Redstone Ore Cover
+ThermalDynamics:cover:0, Gneiss Redstone Ore Cover
+ThermalDynamics:cover:0, Gneiss Redstone Ore Cover
+ThermalDynamics:cover:0, Limestone Redstone Ore Cover
+ThermalDynamics:cover:0, Limestone Redstone Ore Cover
+ThermalDynamics:cover:0, Limestone Redstone Ore Cover
+ThermalDynamics:cover:0, Limestone Redstone Ore Cover
+ThermalDynamics:cover:0, Limestone Redstone Ore Cover
+ThermalDynamics:cover:0, Limestone Redstone Ore Cover
+ThermalDynamics:cover:0, Limestone Redstone Ore Cover
+ThermalDynamics:cover:0, Limestone Redstone Ore Cover
+ThermalDynamics:cover:0, Red Granite Coal Ore Cover
+ThermalDynamics:cover:0, Red Granite Coal Ore Cover
+ThermalDynamics:cover:0, Red Granite Coal Ore Cover
+ThermalDynamics:cover:0, Red Granite Coal Ore Cover
+ThermalDynamics:cover:0, Red Granite Coal Ore Cover
+ThermalDynamics:cover:0, Red Granite Coal Ore Cover
+ThermalDynamics:cover:0, Red Granite Coal Ore Cover
+ThermalDynamics:cover:0, Red Granite Coal Ore Cover
+ThermalDynamics:cover:0, Gneiss Coal Ore Cover
+ThermalDynamics:cover:0, Gneiss Coal Ore Cover
+ThermalDynamics:cover:0, Gneiss Coal Ore Cover
+ThermalDynamics:cover:0, Gneiss Coal Ore Cover
+ThermalDynamics:cover:0, Gneiss Coal Ore Cover
+ThermalDynamics:cover:0, Gneiss Coal Ore Cover
+ThermalDynamics:cover:0, Gneiss Coal Ore Cover
+ThermalDynamics:cover:0, Gneiss Coal Ore Cover
+ThermalDynamics:cover:0, Limestone Coal Ore Cover
+ThermalDynamics:cover:0, Limestone Coal Ore Cover
+ThermalDynamics:cover:0, Limestone Coal Ore Cover
+ThermalDynamics:cover:0, Limestone Coal Ore Cover
+ThermalDynamics:cover:0, Limestone Coal Ore Cover
+ThermalDynamics:cover:0, Limestone Coal Ore Cover
+ThermalDynamics:cover:0, Limestone Coal Ore Cover
+ThermalDynamics:cover:0, Limestone Coal Ore Cover
+ThermalDynamics:cover:0, Red Granite Diamond Ore Cover
+ThermalDynamics:cover:0, Red Granite Diamond Ore Cover
+ThermalDynamics:cover:0, Red Granite Diamond Ore Cover
+ThermalDynamics:cover:0, Red Granite Diamond Ore Cover
+ThermalDynamics:cover:0, Red Granite Diamond Ore Cover
+ThermalDynamics:cover:0, Red Granite Diamond Ore Cover
+ThermalDynamics:cover:0, Red Granite Diamond Ore Cover
+ThermalDynamics:cover:0, Red Granite Diamond Ore Cover
+ThermalDynamics:cover:0, Gneiss Diamond Ore Cover
+ThermalDynamics:cover:0, Gneiss Diamond Ore Cover
+ThermalDynamics:cover:0, Gneiss Diamond Ore Cover
+ThermalDynamics:cover:0, Gneiss Diamond Ore Cover
+ThermalDynamics:cover:0, Gneiss Diamond Ore Cover
+ThermalDynamics:cover:0, Gneiss Diamond Ore Cover
+ThermalDynamics:cover:0, Gneiss Diamond Ore Cover
+ThermalDynamics:cover:0, Gneiss Diamond Ore Cover
+ThermalDynamics:cover:0, Limestone Diamond Ore Cover
+ThermalDynamics:cover:0, Limestone Diamond Ore Cover
+ThermalDynamics:cover:0, Limestone Diamond Ore Cover
+ThermalDynamics:cover:0, Limestone Diamond Ore Cover
+ThermalDynamics:cover:0, Limestone Diamond Ore Cover
+ThermalDynamics:cover:0, Limestone Diamond Ore Cover
+ThermalDynamics:cover:0, Limestone Diamond Ore Cover
+ThermalDynamics:cover:0, Limestone Diamond Ore Cover
+ThermalDynamics:cover:0, Red Granite Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Red Granite Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Red Granite Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Red Granite Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Red Granite Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Red Granite Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Red Granite Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Red Granite Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Gneiss Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Gneiss Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Gneiss Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Gneiss Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Gneiss Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Gneiss Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Gneiss Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Gneiss Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Limestone Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Limestone Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Limestone Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Limestone Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Limestone Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Limestone Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Limestone Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Limestone Lapis Lazuli Ore Cover
+ThermalDynamics:cover:0, Red Granite Emerald Ore Cover
+ThermalDynamics:cover:0, Red Granite Emerald Ore Cover
+ThermalDynamics:cover:0, Red Granite Emerald Ore Cover
+ThermalDynamics:cover:0, Red Granite Emerald Ore Cover
+ThermalDynamics:cover:0, Red Granite Emerald Ore Cover
+ThermalDynamics:cover:0, Red Granite Emerald Ore Cover
+ThermalDynamics:cover:0, Red Granite Emerald Ore Cover
+ThermalDynamics:cover:0, Red Granite Emerald Ore Cover
+ThermalDynamics:cover:0, Gneiss Emerald Ore Cover
+ThermalDynamics:cover:0, Gneiss Emerald Ore Cover
+ThermalDynamics:cover:0, Gneiss Emerald Ore Cover
+ThermalDynamics:cover:0, Gneiss Emerald Ore Cover
+ThermalDynamics:cover:0, Gneiss Emerald Ore Cover
+ThermalDynamics:cover:0, Gneiss Emerald Ore Cover
+ThermalDynamics:cover:0, Gneiss Emerald Ore Cover
+ThermalDynamics:cover:0, Gneiss Emerald Ore Cover
+ThermalDynamics:cover:0, Limestone Emerald Ore Cover
+ThermalDynamics:cover:0, Limestone Emerald Ore Cover
+ThermalDynamics:cover:0, Limestone Emerald Ore Cover
+ThermalDynamics:cover:0, Limestone Emerald Ore Cover
+ThermalDynamics:cover:0, Limestone Emerald Ore Cover
+ThermalDynamics:cover:0, Limestone Emerald Ore Cover
+ThermalDynamics:cover:0, Limestone Emerald Ore Cover
+ThermalDynamics:cover:0, Limestone Emerald Ore Cover
+ThermalDynamics:cover:0, Red Granite Gold Ore Cover
+ThermalDynamics:cover:0, Red Granite Gold Ore Cover
+ThermalDynamics:cover:0, Red Granite Gold Ore Cover
+ThermalDynamics:cover:0, Red Granite Gold Ore Cover
+ThermalDynamics:cover:0, Red Granite Gold Ore Cover
+ThermalDynamics:cover:0, Red Granite Gold Ore Cover
+ThermalDynamics:cover:0, Red Granite Gold Ore Cover
+ThermalDynamics:cover:0, Red Granite Gold Ore Cover
+ThermalDynamics:cover:0, Gneiss Gold Ore Cover
+ThermalDynamics:cover:0, Gneiss Gold Ore Cover
+ThermalDynamics:cover:0, Gneiss Gold Ore Cover
+ThermalDynamics:cover:0, Gneiss Gold Ore Cover
+ThermalDynamics:cover:0, Gneiss Gold Ore Cover
+ThermalDynamics:cover:0, Gneiss Gold Ore Cover
+ThermalDynamics:cover:0, Gneiss Gold Ore Cover
+ThermalDynamics:cover:0, Gneiss Gold Ore Cover
+ThermalDynamics:cover:0, Limestone Gold Ore Cover
+ThermalDynamics:cover:0, Limestone Gold Ore Cover
+ThermalDynamics:cover:0, Limestone Gold Ore Cover
+ThermalDynamics:cover:0, Limestone Gold Ore Cover
+ThermalDynamics:cover:0, Limestone Gold Ore Cover
+ThermalDynamics:cover:0, Limestone Gold Ore Cover
+ThermalDynamics:cover:0, Limestone Gold Ore Cover
+ThermalDynamics:cover:0, Limestone Gold Ore Cover
+ThermalDynamics:cover:0, redGranite Cover
+ThermalDynamics:cover:0, redGranite Cover
+ThermalDynamics:cover:0, redGranite Cover
+ThermalDynamics:cover:0, redGranite Cover
+ThermalDynamics:cover:0, redGranite Cover
+ThermalDynamics:cover:0, redGranite Cover
+ThermalDynamics:cover:0, redGranite Cover
+ThermalDynamics:cover:0, redGranite Cover
+ThermalDynamics:cover:0, gneiss Cover
+ThermalDynamics:cover:0, gneiss Cover
+ThermalDynamics:cover:0, gneiss Cover
+ThermalDynamics:cover:0, gneiss Cover
+ThermalDynamics:cover:0, gneiss Cover
+ThermalDynamics:cover:0, gneiss Cover
+ThermalDynamics:cover:0, gneiss Cover
+ThermalDynamics:cover:0, gneiss Cover
+ThermalDynamics:cover:0, limestone Cover
+ThermalDynamics:cover:0, limestone Cover
+ThermalDynamics:cover:0, limestone Cover
+ThermalDynamics:cover:0, limestone Cover
+ThermalDynamics:cover:0, limestone Cover
+ThermalDynamics:cover:0, limestone Cover
+ThermalDynamics:cover:0, limestone Cover
+ThermalDynamics:cover:0, limestone Cover
+ThermalDynamics:cover:0, Red Granite Copper Ore Cover
+ThermalDynamics:cover:0, Red Granite Copper Ore Cover
+ThermalDynamics:cover:0, Red Granite Copper Ore Cover
+ThermalDynamics:cover:0, Red Granite Copper Ore Cover
+ThermalDynamics:cover:0, Red Granite Copper Ore Cover
+ThermalDynamics:cover:0, Red Granite Copper Ore Cover
+ThermalDynamics:cover:0, Red Granite Copper Ore Cover
+ThermalDynamics:cover:0, Red Granite Copper Ore Cover
+ThermalDynamics:cover:0, Gneiss Copper Ore Cover
+ThermalDynamics:cover:0, Gneiss Copper Ore Cover
+ThermalDynamics:cover:0, Gneiss Copper Ore Cover
+ThermalDynamics:cover:0, Gneiss Copper Ore Cover
+ThermalDynamics:cover:0, Gneiss Copper Ore Cover
+ThermalDynamics:cover:0, Gneiss Copper Ore Cover
+ThermalDynamics:cover:0, Gneiss Copper Ore Cover
+ThermalDynamics:cover:0, Gneiss Copper Ore Cover
+ThermalDynamics:cover:0, Limestone Copper Ore Cover
+ThermalDynamics:cover:0, Limestone Copper Ore Cover
+ThermalDynamics:cover:0, Limestone Copper Ore Cover
+ThermalDynamics:cover:0, Limestone Copper Ore Cover
+ThermalDynamics:cover:0, Limestone Copper Ore Cover
+ThermalDynamics:cover:0, Limestone Copper Ore Cover
+ThermalDynamics:cover:0, Limestone Copper Ore Cover
+ThermalDynamics:cover:0, Limestone Copper Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
 ThermalDynamics:cover:0, Belladonna Cover
 ThermalDynamics:cover:0, Mandrake Cover
 ThermalDynamics:cover:0, Water Artichoke Cover
@@ -25002,6 +26562,15 @@ ThermalDynamics:retriever:4, Resonant Retriever
 ThermalDynamics:relay:0, Redstone Relay
 TMechworks:LengthWire, Length of Wire
 TMechworks:SpoolWire:0, Spool of Wire
+UndergroundBiomes:ligniteCoal, Lignite
+UndergroundBiomes:fossilPiece:0, Ammonite fossil
+UndergroundBiomes:fossilPiece:1, Shell fossil
+UndergroundBiomes:fossilPiece:2, Rib fossil
+UndergroundBiomes:fossilPiece:3, Bone fossil
+UndergroundBiomes:fossilPiece:4, Skull fossil
+UndergroundBiomes:fossilPiece:5, Bone fossil
+UndergroundBiomes:fossilPiece:6, Shell fossil
+UndergroundBiomes:fossilPiece:7, Bone shard fossil
 witchery:ingredient:0, Candelabra
 witchery:ingredient:1, Chalice
 witchery:ingredient:2, Chalice (Filled)
