@@ -1030,7 +1030,7 @@ move.config.creative.keys.default:disabled
 move.config.adventure.keys:e,m,h
 
 # The option configuration to start the next minecraft adventure game with (can also be modified via in-game option configuration toggling)
-move.config.adventure.keys.default:m
+move.config.adventure.keys.default:e
 
 
 # The display names of the option configuration keys

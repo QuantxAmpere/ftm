@@ -1,4 +1,4 @@
-ofRenderDistanceChunks:12
+ofRenderDistanceChunks:8
 ofFogType:1
 ofFogStart:0.4
 ofMipmapType:0
@@ -43,7 +43,7 @@ ofStars:true
 ofSunMoon:true
 ofVignette:0
 ofChunkUpdates:1
-ofChunkLoading:0
+ofChunkLoading:1
 ofChunkUpdatesDynamic:false
 ofTime:0
 ofClearWater:false
@@ -61,7 +61,7 @@ ofShowCapes:true
 ofNaturalTextures:true
 ofLazyChunkLoading:true
 ofDynamicFov:true
-ofDynamicLights:3
+ofDynamicLights:1
 ofFullscreenMode:Default
 ofFastMath:true
 ofFastRender:true
