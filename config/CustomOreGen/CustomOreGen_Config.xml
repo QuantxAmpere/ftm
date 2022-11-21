@@ -1,0 +1,268 @@
+<Config>
+    <!-- some magic bs -->
+    <ConfigSection>
+        <OptionDisplayGroup name='groupInternal' displayName=''
+                displayState='shown'>
+            <Description> 
+                Hidden, mostly internal options.
+            </Description>
+        </OptionDisplayGroup>
+
+        <OptionChoice name='COGActive'
+                default='true'
+                displayGroup='groupInternal'>
+            <Choice value='true' displayValue='On'/>
+            <Choice value='false' displayValue='Off'/>
+            <Comment>
+                Controls whether COG is active in the current
+                dimension. Copy this file to CustomOreGen_Config.xml and
+                modify the expression for the default value to control
+                where COG is active by default.
+            </Comment>
+        </OptionChoice>
+        <OptionDisplayGroup name='groupGeneral' displayName='General' displayState='shown'>
+            <Description> 
+                Options affecting all ore distributions.
+            </Description>
+        </OptionDisplayGroup>
+
+        <OptionChoice name='debugMode' default='false' displayState='shown_dynamic' displayGroup='groupGeneral'>
+            <Description> 
+                Enable/disable debugging mode, which allows the use of in-game wireframe models and console commands.  Also controls the visibility of some advanced options.
+            </Description>
+            <Comment>           
+                This is a "magic" option - it has meaning outside of this file in the COG engine itelf.  You can change the value, obviously, but do not remove the option itself or change the possible values.
+            </Comment>
+            <DisplayName>Debugging Mode</DisplayName>
+            <Choice value='true' displayValue='On'/>
+            <Choice value='false' displayValue='Off'/>
+        </OptionChoice>
+        <OptionNumeric name='deferredPopulationRange' default='16' displayGroup='groupGeneral'>
+            <Description> 
+                Radius (in blocks) around a chunk must be generated before COG will add ores to it. 
+            </Description>
+            <Comment>
+                This is a "magic" option - it has meaning outside of this file in the COG engine itelf.  You can change the value, but do not remove the option itself or change the allowed range.  Changing this value is really not recommended unless you know what you are doing.
+            </Comment>
+            <DisplayState>:= if(?debugMode,"shown","hidden")</DisplayState>
+            <DisplayName>Deferred Chunk Gen. Range</DisplayName>
+            <Min>0</Min>
+            <Max>128</Max>
+            <DisplayIncrement>16</DisplayIncrement>
+        </OptionNumeric> 
+        <OptionChoice name='vanillaOreGen' default=':=!?COGActive' displayGroup='groupGeneral'>
+            <Description> 
+                Enable/disable the vanilla ore generators for coal, iron, gold, redstone, lapis lazuli, and diamond.  
+            </Description>
+            <Comment>     
+                This is a "magic" option - it has meaning outside of this file in the COG engine itelf. You can change the value, but do not remove the option itself.  Recommended values are True/On for new worlds and False/Off for pre-1.4.2 worlds (for compatibility).
+            </Comment>
+            <Comment>
+                This option completely prevents these ores from being spawned by the vanilla terrain generator. It is more efficient than a Substitute distribution, which lets the generator place an ore and then removes it.  However, for technical reasons this option cannot disable vanilla emerald generation. It also has mixed results with mod generation - mods that recycle the vanilla generator get disabled, while those that use their own do not.  Finally, it is an "all-or-nothing" approach that doesn't distinguish between ore types or world properties.  For these reasons this option defaults to "true", and a Substitute distribution is used below to selectively remove the vanilla ore deposits as needed.
+            </Comment>
+            <DisplayState>:= if(?debugMode,"shown","hidden")</DisplayState>
+            <DisplayName>Vanilla Ore Gen.</DisplayName>
+            <Choice value='true' displayValue='On'/>
+            <Choice value='false' displayValue='Off'/>
+        </OptionChoice>
+    </ConfigSection>
+    <!-- my preset -->
+    <ConfigSection>
+        <CloudPreset name='PresetStrategicCloud'>
+            <Description>
+                Large irregular clouds filled lightly with ore.  These are huge, spanning several 
+                adjacent chunks, and consequently rather rare.  They contain a sizeable amount of
+                ore, but it takes some time and effort to mine due to low density.
+                The intent for strategic clouds is that the player will need to actively search for
+                one and then set up a semi-permanent mining base and spend some time actually mining
+                the ore.
+            </Description>
+            <Setting name='DistributionFrequency' avg=':= 0.003'/>
+            <Setting name='ParentRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='CloudRadius' avg='40' range='8'/>
+            <Setting name='CloudThickness' avg='3' range='0'/>
+            <Setting name='CloudSizeNoise' avg='0.03'/>
+            <Setting name='CloudHeight' avg='64' range='56'
+                     type='normal' scaleTo='sealevel'/>
+            <Setting name='CloudInclination' avg='0' range='0'/>
+            <Setting name='OreRadiusMult' avg='1' range='0.001'/>
+            <Setting name='OreDensity' avg='0.96'/>
+            <Setting name='OreVolumeNoiseCutoff' avg='0'/> 
+            <ReplacesOre block='stone'/>
+            <Biome name='.*'/>
+        </CloudPreset>
+    </ConfigSection>
+    <!-- now add ores -->
+    <!-- vanilla -->
+    <ConfigSection>
+        <ConfigSection>
+            <!-- Coal Ore spawns from 0 to 128 -->
+            <Cloud name='vCoal' inherits='PresetStrategicCloud'>
+                <OreBlock block='minecraft:coal_ore' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 64 ' range=':= 64 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Iron Ore spawns from 0 to 64 -->
+            <Cloud name='vIron' inherits='PresetStrategicCloud'>
+                <OreBlock block='minecraft:iron_ore' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 32 ' range=':= 32 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Gold Ore spawns from 0 to 32 -->
+            <Cloud name='vGold' inherits='PresetStrategicCloud'>
+                <OreBlock block='minecraft:gold_ore' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 16 ' range=':= 16 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Redstone Ore spawns from 0 to 16 -->
+            <Cloud name='vRedstone' inherits='PresetStrategicCloud'>
+                <OreBlock block='minecraft:redstone_ore' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 8 ' range=':= 8 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Lapis Lazuli Ore spawns from 0 to 32 -->
+            <Cloud name='vLapis' inherits='PresetStrategicCloud'>
+                <OreBlock block='minecraft:lapis_ore' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 16 ' range=':= 16 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Diamond Ore spawns from 0 to 16 -->
+            <Cloud name='vDiamond' inherits='PresetStrategicCloud'>
+                <OreBlock block='minecraft:diamond_ore' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 8 ' range=':= 8 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Emerald Ore spawns from 0 to 128 but only in mountain biome -->
+            <Cloud name='vEmerald' inherits='PresetStrategicCloud'>
+                <OreBlock block='minecraft:emerald_ore' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 64 ' range=':= 64 ' type='normal' scaleTo='base' />
+                <Biome name='mountain'/>
+            </Cloud>
+            <!-- Nether Quartz Ore spawns from 0 to 128 but only in nether -->
+            <Cloud name='vNetherQuartz' inherits='PresetStrategicCloud'>
+                <OreBlock block='minecraft:quartz_ore' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 64 ' range=':= 64 ' type='normal' scaleTo='base' />
+                <Biome name='nether'/>
+            </Cloud>
+            <!-- Tinkers Construct Copper Ore spawns from 35 to 75 --> 
+            <Cloud name='tCopper' inherits='PresetStrategicCloud'>
+                <OreBlock block='TConstruct:SearedBrick:3' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 55 ' range=':= 20 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Tinkers Construct Tin Ore spawns from 20 to 65 -->
+            <Cloud name='tTin' inherits='PresetStrategicCloud'>
+                <OreBlock block='TConstruct:SearedBrick:4' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 42.5 ' range=':= 22.5 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Tinkers Construct Aluminum Ore spawns from 30 to 70 -->
+            <Cloud name='tAluminum' inherits='PresetStrategicCloud'>
+                <OreBlock block='TConstruct:SearedBrick:5' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 50 ' range=':= 20 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Tinkers Construct Cobalt Ore spawns from 0 to 128 but only in nether -->
+            <Cloud name='tCobalt' inherits='PresetStrategicCloud'>
+                <OreBlock block='TConstruct:SearedBrick:1' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 64 ' range=':= 64 ' type='normal' scaleTo='base' />
+                <Biome name='nether'/>
+            </Cloud>
+            <!-- Tinkers Construct Ardite Ore spawns from 0 to 128 but only in nether -->
+            <Cloud name='tArdite' inherits='PresetStrategicCloud'>
+                <OreBlock block='TConstruct:SearedBrick:2' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 64 ' range=':= 64 ' type='normal' scaleTo='base' />
+                <Biome name='nether'/>
+            </Cloud>
+            <!-- Thermal Foundation Nickel Ore spawns from 5 to 35 -->
+            <Cloud name='tNickel' inherits='PresetStrategicCloud'>
+                <OreBlock block='ThermalFoundation:Ore:4' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 20 ' range=':= 15 ' type='normal' scaleTo='base' />
+            </Cloud> 
+            <!-- Thermal Foundation Lead Ore spawns from 10 to 40 contains some silver -->
+            <Cloud name='tLead' inherits='PresetStrategicCloud'>
+                <OreBlock block='ThermalFoundation:Ore:3' weight='0.8'/>
+                <OreBlock block='ThermalFoundation:Ore:2' weight='0.2'/>
+                <Setting name='CloudHeight' avg=':= 25 ' range=':= 15 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Thermal Foundation Silver Ore spawns from 10 to 40 contains some lead -->
+            <Cloud name='tSilver' inherits='PresetStrategicCloud'>
+                <OreBlock block='ThermalFoundation:Ore:2' weight='0.8'/>
+                <OreBlock block='ThermalFoundation:Ore:3' weight='0.2'/>
+                <Setting name='CloudHeight' avg=':= 25 ' range=':= 15 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Thermal Foundation Platinum Ore spawns from 0 to 16 -->
+            <Cloud name='tPlatinum' inherits='PresetStrategicCloud'>
+                <OreBlock block='ThermalFoundation:Ore:5' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 8 ' range=':= 8 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Nether Sulphur Ore spawns from 0 to 128 but only in nether -->
+            <Cloud name='nSulphur' inherits='PresetStrategicCloud'>
+                <OreBlock block='NetherOres:tile.netherores.ore.1:5' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 64 ' range=':= 64 ' type='normal' scaleTo='base' />
+                <Biome name='nether'/>
+            </Cloud>
+            <!-- Saltpeter Ore spawns from 0 to 128 but only in nether -->
+            <Cloud name='rSaltpeter' inherits='PresetStrategicCloud'>
+                <OreBlock block='NetherOres:tile.netherores.ore.1:14' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 64 ' range=':= 64 ' type='normal' scaleTo='base' />
+                <Biome name='nether'/>
+            </Cloud>
+            <!-- Yellorium Ore spawns from 0 to 42 -->
+            <Cloud name='yYellorium' inherits='PresetStrategicCloud'>
+                <OreBlock block='BigReactors:YelloriteOre:0' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 21 ' range=':= 21 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- Certus Quartz Ore spawns from 32 to 64 contains some charged certus quartz -->
+            <Cloud name='aCertusQuartz' inherits='PresetStrategicCloud'>
+                <OreBlock block='appliedenergistics2:tile.OreQuartz' weight='0.95'/>
+                <OreBlock block='appliedenergistics2:tile.OreQuartzCharged' weight='0.05'/>
+                <Setting name='CloudHeight' avg=':= 48 ' range=':= 16 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- gems from project red -->
+            <Cloud name='pGems' inherits='PresetStrategicCloud'>
+                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:0' weight='0.4'/>
+                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:1' weight='0.3'/>
+                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:2' weight='0.3'/>
+                <Setting name='CloudHeight' avg=':= 32 ' range=':= 32 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- project red electrotine ore spawns from 0 to 128 but with lower distribution frequency -->
+            <Cloud name='pElectrotine' inherits='PresetStrategicCloud'>
+                <Setting name='DistributionFrequency' avg=':= 0.0005'/>
+                <OreBlock block='ProjRed|Exploration:projectred.exploration.ore:6' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 64 ' range=':= 64 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- forestry apitite ore spawns from 48 to 128 -->
+            <Cloud name='fApitite' inherits='PresetStrategicCloud'>
+                <OreBlock block='Forestry:resources' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 88 ' range=':= 40 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- ic2 uranium ore spawns from 0 to 64 -->
+            <Cloud name='iUranium' inherits='PresetStrategicCloud'>
+                <OreBlock block='IC2:blockOreUran' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 32 ' range=':= 32 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- thaumcraft amber ore spawns from 0 to 64 contains some cinnabar -->
+            <Cloud name='tAmber' inherits='PresetStrategicCloud'>
+                <OreBlock block='Thaumcraft:blockCustomOre:0' weight='0.5'/>
+                <OreBlock block='Thaumcraft:blockCustomOre:7' weight='0.5'/>
+                <Setting name='CloudHeight' avg=':= 32 ' range=':= 32 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- thaumcraft air and earth shards spawn from 0 to 64 -->
+            <Cloud name='tShards' inherits='PresetStrategicCloud'>
+                <OreBlock block='Thaumcraft:blockCustomOre:1' weight='0.5'/>
+                <OreBlock block='Thaumcraft:blockCustomOre:4' weight='0.5'/>
+                <Setting name='CloudHeight' avg=':= 32 ' range=':= 32 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- thaumcraft fire and water shards spawn from 0 to 64 -->
+            <Cloud name='tShards2' inherits='PresetStrategicCloud'>
+                <OreBlock block='Thaumcraft:blockCustomOre:2' weight='0.5'/>
+                <OreBlock block='Thaumcraft:blockCustomOre:3' weight='0.5'/>
+                <Setting name='CloudHeight' avg=':= 32 ' range=':= 32 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- thaumcraft entropy and order shards spawn from 0 to 64 -->
+            <Cloud name='tShards3' inherits='PresetStrategicCloud'>
+                <OreBlock block='Thaumcraft:blockCustomOre:5' weight='0.5'/>
+                <OreBlock block='Thaumcraft:blockCustomOre:6' weight='0.5'/>
+                <Setting name='CloudHeight' avg=':= 32 ' range=':= 32 ' type='normal' scaleTo='base' />
+            </Cloud>
+            <!-- ic2 iridium ore spawns from 0 to 16 -->
+            <!-- <Cloud name='iIridium' inherits='PresetStrategicCloud'>
+                <Setting name='DistributionFrequency' avg=':= 0.0001'/>
+                <OreBlock block='aobd:oreIridium' weight='1.0'/>
+                <Setting name='CloudHeight' avg=':= 8 ' range=':= 8 ' type='normal' scaleTo='base' />
+            </Cloud> -->
+        </ConfigSection>
+    </ConfigSection>
+</Config>

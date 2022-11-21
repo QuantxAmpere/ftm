@@ -1,0 +1,92 @@
+{
+    "Ruby": {
+        "template": "uniform",
+        "block": "ProjRed|Exploration:projectred.exploration.ore",
+        "material": "minecraft:stone",
+        "clusterSize": 25,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Peridot": {
+        "template": "uniform",
+        "block": {
+            "name": "ProjRed|Exploration:projectred.exploration.ore",
+            "metadata": 2
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 25,
+        "numClusters": 1,
+        "minHeight": 32,
+        "maxHeight": 48,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Sapphire": {
+        "template": "uniform",
+        "block": {
+            "name": "ProjRed|Exploration:projectred.exploration.ore",
+            "metadata": 1
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 25,
+        "numClusters": 1,
+        "minHeight": 16,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Apatite": {
+        "template": "uniform",
+        "block": "Forestry:resources",
+        "material": "stone",
+        "clusterSize": 100,
+        "numClusters": 1,
+        "minHeight": 48,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Amethyst": {
+        "template": "uniform",
+        "block": "BiomesOPlenty:gemOre",
+        "material": "minecraft:end_stone",
+        "clusterSize": 80,
+        "numClusters": 1,
+        "minHeight": 5,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    }
+}

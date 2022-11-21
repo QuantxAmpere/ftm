@@ -3,7 +3,7 @@ mouseSensitivity:0.2535211
 fov:0.75
 gamma:1.0
 saturation:0.0
-renderDistance:8
+renderDistance:12
 guiScale:3.6000001
 particles:0
 bobView:true
@@ -151,7 +151,7 @@ key_key.journeymap.minimap_type:0
 key_key.journeymap.minimap_type:0
 key_key.journeymap.minimap_preset:0
 key_key.journeymap.create_waypoint:0
-soundCategory_master:0.09933775
+soundCategory_master:0.052980132
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
