@@ -276,6 +276,7 @@ move.sprint:false
 move.sprint.factor:1.5
 
 # To switch on/off sprinting exhaustion
+#! Interpreted value "true" is ignored because the default value of property "move.sprint" is "false" !#
 move.sprint.exhaustion:true;e:false
 
 
@@ -469,6 +470,7 @@ move.jump.run.vertical.factor:1
 
 
 # To switch on/off jumping while sprinting (Relevant only if nether "move.sprint" nor "move.jump" are false)
+#! Interpreted value "true" is ignored because the default value of property "move.sprint" is "false" !#
 move.jump.sprint:true
 
 # Horizontal sprint jumping factor relative to actual horizontal movement (>= 1)
@@ -1034,7 +1036,7 @@ move.config.adventure.keys.default:e
 
 
 # The display names of the option configuration keys
-move.config.key.name:e:Easy;m:Medium;h:Hard
+move.config.key.name:e:Easy;h:Hard;m:Medium
 
 
 
