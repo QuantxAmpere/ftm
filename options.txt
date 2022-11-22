@@ -100,7 +100,7 @@ key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
 key_simplyjetpacks.keybind.toggle.primary:0
 key_simplyjetpacks.keybind.toggle.secondary:0
-key_simplyjetpacks.keybind.mode.primary:25
+key_simplyjetpacks.keybind.mode.primary:44
 key_simplyjetpacks.keybind.mode.secondary:0
 key_simplyjetpacks.keybind.openPackGUI:0
 key_Baubles Inventory:0
@@ -132,7 +132,7 @@ key_key.tbelt:0
 key_key.tzoom:0
 key_ttmisc.toggleArmor:0
 key_invtweaks.key.sort:0
-key_key.climb:56
+key_key.climb:25
 key_key.config.toggle:67
 key_key.speed.increase:0
 key_key.speed.decrease:0

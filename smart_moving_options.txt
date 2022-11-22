@@ -270,7 +270,7 @@ move.exhaustion.run.gain.factor:1.5
 # =====================================================================
 
 # To switch on/off generic sprinting
-move.sprint:true
+move.sprint:false
 
 # Generic sprinting factor (>= 1.1 AND >= 'move.run.factor' + 0.1 if relevant)
 move.sprint.factor:1.5
@@ -1034,7 +1034,7 @@ move.config.adventure.keys.default:e
 
 
 # The display names of the option configuration keys
-move.config.key.name:e:Easy;h:Hard;m:Medium
+move.config.key.name:e:Easy;m:Medium;h:Hard
 
 
 
