@@ -7152,7 +7152,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quadratic Equation Device)
+ExtraUtilities:endConstructor:0, QED (Quail Eating Ducks)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -8116,45 +8116,45 @@ ExtraTiC:moltenConstantan, Molten Constantan
 ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
-ThaumicTinkerer:golemConnector, Golem Connector
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
-ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:fireAir, Aer Imbued Fire
 ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:funnel, Essentia Funnel
 ThaumicTinkerer:travelStairs, Paving Stair of Travel
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
 ThaumicTinkerer:wardSlab:0, tile.wardSlab.name
 ThaumicTinkerer:wardSlabFull:0, tile.wardSlab.name
 ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:golemConnector, Golem Connector
+ThaumicTinkerer:platform, Ethereal Platform
 ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
 ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:travelSlab:0, Paving Slab of Travel
+ThaumicTinkerer:travelSlabFull:0, Paving Slab of Travel
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:interface, Transvector Interface
 ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -8386,11 +8386,11 @@ OpenBlocks:sky:1, Sky Block
 OpenBlocks:xpshower, XP Shower
 OpenBlocks:goldenegg, Golden Egg
 OpenBlocks:scaffolding, Scaffolding
+OpenPeripheral:peripheralproxy, Peripheral Proxy
 OpenPeripheral:glassesbridge, Terminal Glasses Bridge
 OpenPeripheral:pim, PIM
 OpenPeripheral:sensor, Sensor
 OpenPeripheral:selector, Item Selector
-OpenPeripheral:peripheralproxy, Peripheral Proxy
 OpenPeripheral:ticketmachine, Ticket Machine
 rftools:machineFrame, Machine Frame
 rftools:machineBase, Machine Base
@@ -9769,78 +9769,6 @@ UndergroundBiomes:sedimentary_monsterStoneEgg:4, ligniteBlock
 UndergroundBiomes:sedimentary_monsterStoneEgg:5, dolomite
 UndergroundBiomes:sedimentary_monsterStoneEgg:6, greywacke
 UndergroundBiomes:sedimentary_monsterStoneEgg:7, chert
-UndergroundBiomes:igneous_tconstruct.stoneore.5:0, Red Granite Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:1, Black Granite Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:2, Rhyolite Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:3, Andesite Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:4, Gabbro Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:5, Basalt Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:6, Komatiite Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.5:7, Dacite Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:0, Gneiss Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:1, Eclogite Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:2, Marble Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:3, Quartzite Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:4, Blue Schist Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:5, Green Schist Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:6, Soapstone Aluminum Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.5:7, Migmatite Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:0, Limestone Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:1, Chalk Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:2, Shale Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:3, Siltstone Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:4, Lignite Block Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:5, Dolomite Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:6, Greywacke Aluminum Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.5:7, Chert Aluminum Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:0, Red Granite Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:1, Black Granite Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:2, Rhyolite Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:3, Andesite Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:4, Gabbro Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:5, Basalt Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:6, Komatiite Tin Ore
-UndergroundBiomes:igneous_tconstruct.stoneore.4:7, Dacite Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:0, Gneiss Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:1, Eclogite Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:2, Marble Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:3, Quartzite Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:4, Blue Schist Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:5, Green Schist Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:6, Soapstone Tin Ore
-UndergroundBiomes:metamorphic_tconstruct.stoneore.4:7, Migmatite Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:0, Limestone Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:1, Chalk Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:2, Shale Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:3, Siltstone Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:4, Lignite Block Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:5, Dolomite Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:6, Greywacke Tin Ore
-UndergroundBiomes:sedimentary_tconstruct.stoneore.4:7, Chert Tin Ore
-UndergroundBiomes:igneous_oreIron:0, Red Granite Iron Ore
-UndergroundBiomes:igneous_oreIron:1, Black Granite Iron Ore
-UndergroundBiomes:igneous_oreIron:2, Rhyolite Iron Ore
-UndergroundBiomes:igneous_oreIron:3, Andesite Iron Ore
-UndergroundBiomes:igneous_oreIron:4, Gabbro Iron Ore
-UndergroundBiomes:igneous_oreIron:5, Basalt Iron Ore
-UndergroundBiomes:igneous_oreIron:6, Komatiite Iron Ore
-UndergroundBiomes:igneous_oreIron:7, Dacite Iron Ore
-UndergroundBiomes:metamorphic_oreIron:0, Gneiss Iron Ore
-UndergroundBiomes:metamorphic_oreIron:1, Eclogite Iron Ore
-UndergroundBiomes:metamorphic_oreIron:2, Marble Iron Ore
-UndergroundBiomes:metamorphic_oreIron:3, Quartzite Iron Ore
-UndergroundBiomes:metamorphic_oreIron:4, Blue Schist Iron Ore
-UndergroundBiomes:metamorphic_oreIron:5, Green Schist Iron Ore
-UndergroundBiomes:metamorphic_oreIron:6, Soapstone Iron Ore
-UndergroundBiomes:metamorphic_oreIron:7, Migmatite Iron Ore
-UndergroundBiomes:sedimentary_oreIron:0, Limestone Iron Ore
-UndergroundBiomes:sedimentary_oreIron:1, Chalk Iron Ore
-UndergroundBiomes:sedimentary_oreIron:2, Shale Iron Ore
-UndergroundBiomes:sedimentary_oreIron:3, Siltstone Iron Ore
-UndergroundBiomes:sedimentary_oreIron:4, Lignite Block Iron Ore
-UndergroundBiomes:sedimentary_oreIron:5, Dolomite Iron Ore
-UndergroundBiomes:sedimentary_oreIron:6, Greywacke Iron Ore
-UndergroundBiomes:sedimentary_oreIron:7, Chert Iron Ore
 UndergroundBiomes:igneous_tconstruct.stoneore.3:0, Red Granite Copper Ore
 UndergroundBiomes:igneous_tconstruct.stoneore.3:1, Black Granite Copper Ore
 UndergroundBiomes:igneous_tconstruct.stoneore.3:2, Rhyolite Copper Ore
@@ -9865,6 +9793,78 @@ UndergroundBiomes:sedimentary_tconstruct.stoneore.3:4, Lignite Block Copper Ore
 UndergroundBiomes:sedimentary_tconstruct.stoneore.3:5, Dolomite Copper Ore
 UndergroundBiomes:sedimentary_tconstruct.stoneore.3:6, Greywacke Copper Ore
 UndergroundBiomes:sedimentary_tconstruct.stoneore.3:7, Chert Copper Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:0, Red Granite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:1, Black Granite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:2, Rhyolite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:3, Andesite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:4, Gabbro Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:5, Basalt Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:6, Komatiite Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.4:7, Dacite Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:0, Gneiss Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:1, Eclogite Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:2, Marble Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:3, Quartzite Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:4, Blue Schist Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:5, Green Schist Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:6, Soapstone Tin Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.4:7, Migmatite Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:0, Limestone Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:1, Chalk Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:2, Shale Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:3, Siltstone Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:4, Lignite Block Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:5, Dolomite Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:6, Greywacke Tin Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.4:7, Chert Tin Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:0, Red Granite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:1, Black Granite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:2, Rhyolite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:3, Andesite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:4, Gabbro Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:5, Basalt Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:6, Komatiite Aluminum Ore
+UndergroundBiomes:igneous_tconstruct.stoneore.5:7, Dacite Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:0, Gneiss Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:1, Eclogite Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:2, Marble Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:3, Quartzite Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:4, Blue Schist Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:5, Green Schist Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:6, Soapstone Aluminum Ore
+UndergroundBiomes:metamorphic_tconstruct.stoneore.5:7, Migmatite Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:0, Limestone Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:1, Chalk Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:2, Shale Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:3, Siltstone Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:4, Lignite Block Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:5, Dolomite Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:6, Greywacke Aluminum Ore
+UndergroundBiomes:sedimentary_tconstruct.stoneore.5:7, Chert Aluminum Ore
+UndergroundBiomes:igneous_oreIron:0, Red Granite Iron Ore
+UndergroundBiomes:igneous_oreIron:1, Black Granite Iron Ore
+UndergroundBiomes:igneous_oreIron:2, Rhyolite Iron Ore
+UndergroundBiomes:igneous_oreIron:3, Andesite Iron Ore
+UndergroundBiomes:igneous_oreIron:4, Gabbro Iron Ore
+UndergroundBiomes:igneous_oreIron:5, Basalt Iron Ore
+UndergroundBiomes:igneous_oreIron:6, Komatiite Iron Ore
+UndergroundBiomes:igneous_oreIron:7, Dacite Iron Ore
+UndergroundBiomes:metamorphic_oreIron:0, Gneiss Iron Ore
+UndergroundBiomes:metamorphic_oreIron:1, Eclogite Iron Ore
+UndergroundBiomes:metamorphic_oreIron:2, Marble Iron Ore
+UndergroundBiomes:metamorphic_oreIron:3, Quartzite Iron Ore
+UndergroundBiomes:metamorphic_oreIron:4, Blue Schist Iron Ore
+UndergroundBiomes:metamorphic_oreIron:5, Green Schist Iron Ore
+UndergroundBiomes:metamorphic_oreIron:6, Soapstone Iron Ore
+UndergroundBiomes:metamorphic_oreIron:7, Migmatite Iron Ore
+UndergroundBiomes:sedimentary_oreIron:0, Limestone Iron Ore
+UndergroundBiomes:sedimentary_oreIron:1, Chalk Iron Ore
+UndergroundBiomes:sedimentary_oreIron:2, Shale Iron Ore
+UndergroundBiomes:sedimentary_oreIron:3, Siltstone Iron Ore
+UndergroundBiomes:sedimentary_oreIron:4, Lignite Block Iron Ore
+UndergroundBiomes:sedimentary_oreIron:5, Dolomite Iron Ore
+UndergroundBiomes:sedimentary_oreIron:6, Greywacke Iron Ore
+UndergroundBiomes:sedimentary_oreIron:7, Chert Iron Ore
 witchery:belladonna, Belladonna
 witchery:mandrake, Mandrake
 witchery:artichoke, Water Artichoke
@@ -12587,11 +12587,11 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Brownstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fairy Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pokefennium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - RedAurum Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Paving Slab of Travel
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
@@ -12972,78 +12972,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - limestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Copper Ore
@@ -13068,6 +12996,78 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Copper Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Tin Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Aluminum Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Granite Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Gneiss Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Limestone Iron Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Rowan Wood
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Alder Wood
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Hawthorn Wood
@@ -25605,25 +25605,25 @@ ThermalDynamics:cover:0, Molten Constantan Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, Ignis Imbued Fire Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, Paving Slab of Travel Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
 ThermalDynamics:cover:0, Paving Stair of Travel Cover
-ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
 ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, Ignis Imbued Fire Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
+ThermalDynamics:cover:0, Paving Slab of Travel Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
@@ -26327,78 +26327,6 @@ ThermalDynamics:cover:0, limestone Cover
 ThermalDynamics:cover:0, limestone Cover
 ThermalDynamics:cover:0, limestone Cover
 ThermalDynamics:cover:0, limestone Cover
-ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
-ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
-ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
-ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
-ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
-ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
-ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
-ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
-ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
-ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
-ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
-ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
-ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
-ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
-ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
-ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
-ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
-ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
-ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
-ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
-ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
-ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
-ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
-ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
-ThermalDynamics:cover:0, Red Granite Tin Ore Cover
-ThermalDynamics:cover:0, Red Granite Tin Ore Cover
-ThermalDynamics:cover:0, Red Granite Tin Ore Cover
-ThermalDynamics:cover:0, Red Granite Tin Ore Cover
-ThermalDynamics:cover:0, Red Granite Tin Ore Cover
-ThermalDynamics:cover:0, Red Granite Tin Ore Cover
-ThermalDynamics:cover:0, Red Granite Tin Ore Cover
-ThermalDynamics:cover:0, Red Granite Tin Ore Cover
-ThermalDynamics:cover:0, Gneiss Tin Ore Cover
-ThermalDynamics:cover:0, Gneiss Tin Ore Cover
-ThermalDynamics:cover:0, Gneiss Tin Ore Cover
-ThermalDynamics:cover:0, Gneiss Tin Ore Cover
-ThermalDynamics:cover:0, Gneiss Tin Ore Cover
-ThermalDynamics:cover:0, Gneiss Tin Ore Cover
-ThermalDynamics:cover:0, Gneiss Tin Ore Cover
-ThermalDynamics:cover:0, Gneiss Tin Ore Cover
-ThermalDynamics:cover:0, Limestone Tin Ore Cover
-ThermalDynamics:cover:0, Limestone Tin Ore Cover
-ThermalDynamics:cover:0, Limestone Tin Ore Cover
-ThermalDynamics:cover:0, Limestone Tin Ore Cover
-ThermalDynamics:cover:0, Limestone Tin Ore Cover
-ThermalDynamics:cover:0, Limestone Tin Ore Cover
-ThermalDynamics:cover:0, Limestone Tin Ore Cover
-ThermalDynamics:cover:0, Limestone Tin Ore Cover
-ThermalDynamics:cover:0, Red Granite Iron Ore Cover
-ThermalDynamics:cover:0, Red Granite Iron Ore Cover
-ThermalDynamics:cover:0, Red Granite Iron Ore Cover
-ThermalDynamics:cover:0, Red Granite Iron Ore Cover
-ThermalDynamics:cover:0, Red Granite Iron Ore Cover
-ThermalDynamics:cover:0, Red Granite Iron Ore Cover
-ThermalDynamics:cover:0, Red Granite Iron Ore Cover
-ThermalDynamics:cover:0, Red Granite Iron Ore Cover
-ThermalDynamics:cover:0, Gneiss Iron Ore Cover
-ThermalDynamics:cover:0, Gneiss Iron Ore Cover
-ThermalDynamics:cover:0, Gneiss Iron Ore Cover
-ThermalDynamics:cover:0, Gneiss Iron Ore Cover
-ThermalDynamics:cover:0, Gneiss Iron Ore Cover
-ThermalDynamics:cover:0, Gneiss Iron Ore Cover
-ThermalDynamics:cover:0, Gneiss Iron Ore Cover
-ThermalDynamics:cover:0, Gneiss Iron Ore Cover
-ThermalDynamics:cover:0, Limestone Iron Ore Cover
-ThermalDynamics:cover:0, Limestone Iron Ore Cover
-ThermalDynamics:cover:0, Limestone Iron Ore Cover
-ThermalDynamics:cover:0, Limestone Iron Ore Cover
-ThermalDynamics:cover:0, Limestone Iron Ore Cover
-ThermalDynamics:cover:0, Limestone Iron Ore Cover
-ThermalDynamics:cover:0, Limestone Iron Ore Cover
-ThermalDynamics:cover:0, Limestone Iron Ore Cover
 ThermalDynamics:cover:0, Red Granite Copper Ore Cover
 ThermalDynamics:cover:0, Red Granite Copper Ore Cover
 ThermalDynamics:cover:0, Red Granite Copper Ore Cover
@@ -26423,6 +26351,78 @@ ThermalDynamics:cover:0, Limestone Copper Ore Cover
 ThermalDynamics:cover:0, Limestone Copper Ore Cover
 ThermalDynamics:cover:0, Limestone Copper Ore Cover
 ThermalDynamics:cover:0, Limestone Copper Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Gneiss Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Limestone Tin Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Gneiss Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Limestone Aluminum Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Red Granite Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Gneiss Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
+ThermalDynamics:cover:0, Limestone Iron Ore Cover
 ThermalDynamics:cover:0, Belladonna Cover
 ThermalDynamics:cover:0, Mandrake Cover
 ThermalDynamics:cover:0, Water Artichoke Cover
