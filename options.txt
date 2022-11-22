@@ -91,6 +91,7 @@ key_Boost Key:0
 key_Mode Switch Key:0
 key_Side Inventory Key:0
 key_Hub Expand Key:0
+key_key.personalBackpack:48
 key_Tool Increase:0
 key_Tool Decrease:0
 key_Gravi Fly Key:0
