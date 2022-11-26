@@ -75,3 +75,61 @@ recipes.addShaped(travelGloveNBT, [[null, null, <ore:materialHardenedleather>], 
 recipes.addShaped(travelWingsNBT, [[null, <ore:pearlEnder>, null], [<ore:ingotBronze>, <Botania:travelBelt>, <ore:ingotBronze>], [<ore:ingotBronze>, null, <ore:ingotBronze>]]);
 
 print("Initialized 'TinkersConstruct.zs'");
+
+
+
+# author mqqs
+
+# custom recipes for smeltery
+val bricks = <TConstruct:Smeltery:2>;
+val brick = <TConstruct:materials:2>;
+val faucet = <TConstruct:SearedBlock:1>;
+recipes.remove(bricks);
+recipes.addShapeless(bricks, [brick, brick, brick, brick, brick, brick, brick, brick, brick]);
+
+# faucet
+recipes.remove(faucet);
+recipes.addShaped(faucet, [[bricks, null, bricks], [bricks, bricks, bricks], [null, null, null]]);
+
+# grout
+val sand = <ore:sand>;
+val gravel = <ore:gravel>;
+val clayBlock = <minecraft:clay>;
+val grout = <TConstruct:CraftedSoil:1>;
+recipes.remove(grout);
+recipes.addShapeless(grout, [clayBlock, sand, sand, sand, sand, gravel, gravel, gravel, gravel]);
+
+# drain
+val drain = <TConstruct:Smeltery:1>;
+recipes.remove(drain);
+recipes.addShaped(drain, [[bricks, null, bricks], [bricks, null, bricks], [bricks, null, bricks]]);
+
+# tank
+val tank = <TConstruct:LavaTank:0>;
+val glass = <ore:glass>;
+recipes.remove(tank);
+recipes.addShaped(tank, [[bricks, bricks, bricks], [bricks, glass, bricks], [bricks, bricks, bricks]]);
+
+# controller
+val controller = <TConstruct:Smeltery:0>;
+val furnace = <minecraft:furnace>;
+recipes.remove(controller);
+recipes.addShaped(controller, [[bricks, bricks, bricks], [furnace, null, furnace], [bricks, bricks, bricks]]);
+
+# casting table
+val table = <TConstruct:SearedBlock:0>;
+val basin = <TConstruct:SearedBlock:2>;
+recipes.remove(table);
+recipes.remove(basin);
+recipes.addShaped(table, [[bricks, bricks, bricks], [bricks, null, bricks], [bricks, null, bricks]]);
+recipes.addShaped(basin, [[bricks, null, bricks], [bricks, null, bricks], [bricks, bricks, bricks]]);
+
+
+val sstone = <TConstruct:Smeltery:4>;
+
+
+mods.tconstruct.Casting.removeBasinRecipe(sstone);
+mods.tconstruct.Casting.removeTableRecipe(brick);
+
+mods.tconstruct.Casting.addBasinRecipe(brick, <liquid:stone.seared> * 144, <TConstruct:metalPattern>, false, 20);
+mods.tconstruct.Casting.addBasinRecipe(sstone, <liquid:stone.seared> * 1296, null, false, 20);
