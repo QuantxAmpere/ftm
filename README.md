@@ -1,4 +1,4 @@
 # ftm
 This is not TFC!!!
 
-[![](https://markdown-videos.deta/youtube/{AGlYzPMmpQA})](https://youtu.be/{AGlYzPMmpQA})
+[![](https://img.youtube.com/vi/AGlYzPMmpQA/0.jpg)](https://www.youtube.com/watch?v=AGlYzPMmpQA)
