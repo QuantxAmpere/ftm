@@ -9,7 +9,6 @@ logs/
 minetweaker.log
 perms.txt
 saves/
-resourcepacks
 .ReAuth.cfg
 1213309934
 TimeUsage.txt
@@ -18,3 +17,4 @@ crash-reports/
 screenshots/
 usercache.json
 usernamecache.json
+
