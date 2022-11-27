@@ -8,7 +8,6 @@ local/
 logs/
 minetweaker.log
 perms.txt
-resources/
 saves/
 resourcepacks
 .ReAuth.cfg
